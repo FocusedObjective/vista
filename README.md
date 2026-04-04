@@ -1,16 +1,128 @@
-# VISTA: The Overall View for Outcome-Optimized AI Engineering
+# VISTA : The Overall View for Outcome-Optimized AI Engineering
 
-**VISTA** stands for **Value, Impact, Safety, Timing, and Adaptation**—a framework giving leaders and teams an overall view of whether AI engineering produces the right outcomes—not just more output.
+**VISTA** stands for **Value, Impact, Safety, Timing, and Adaptation**.
 
-As AI accelerates code production, engineering performance must focus on outcomes: strategic progress, customer value, risk management, prioritization, and learning.
+VISTA is an open framework for outcome-optimized AI engineering. It gives leaders and teams an overall view of whether engineering is producing the right outcomes, not just more code, more pull requests, or more shipped changes.
 
-## What VISTA Measures:
+As coding gets cheaper and faster, the real constraint shifts from code production to judgment: choosing the right work, shaping it well before coding starts, applying the right review depth, verifying the right risks, and learning from what happens after release.
 
-1. **Value**: Did the work create real user or business benefit?
-2. **Impact**: Did it advance strategic goals or competitive position?
-3. **Safety**: Did it avoid hidden downsides and regressions?
-4. **Timing**: Was capacity directed to the highest-cost-of-delay work?
-5. **Adaptation**: Is the system learning and improving over time?
+That is the purpose of VISTA.
+
+---
+
+## Why VISTA exists
+
+Modern engineering organizations have no shortage of output metrics.
+
+They can usually tell you:
+- how many pull requests were merged
+- how often software was deployed
+- how fast reviews moved
+- how much code was generated
+- how much backlog was cleared
+
+What they often cannot tell you is whether that work:
+- advanced strategy
+- created real customer value
+- avoided hidden downside
+- went to the right place at the right time
+- helped the organization learn and improve
+
+VISTA exists to make that visible.
+
+---
+
+## Complexity with purpose
+
+Yes, VISTA is more nuanced than lighter-weight frameworks.
+
+That is intentional.
+
+A simple metrics set can spread quickly because it is easy to explain. But engineering in the age of AI needs more than a narrow view of speed and stability. It needs a better overall view of direction, value, risk, timing, and learning.
+
+**Speed without direction is waste.**
+**Output is not outcome.**
+**Complexity with purpose is better than simplicity that hides what matters.**
+
+VISTA is designed to be richer where it needs to be, while still being practical enough to start small and grow over time.
+
+---
+
+## The five dimensions
+
+### Value
+Did the work create meaningful user or business benefit?
+
+### Impact
+Did it materially advance strategic goals or competitive position?
+
+### Safety
+Did it avoid hidden downside, regressions, privacy issues, trust damage, or fragile outcomes?
+
+### Timing
+Was capacity directed to the right work at the right time, especially where cost of delay was highest?
+
+### Adaptation
+Is the system learning and improving over time?
+
+---
+
+## What VISTA is trying to change
+
+VISTA is built on a simple idea:
+
+**As AI makes output cheaper, judgment becomes more important.**
+
+That means teams need better ways to think about:
+- choosing the right work
+- avoiding low-value output
+- matching review depth to risk
+- accounting for hidden delivery costs
+- preventing AI slop in code, pull requests, and product direction
+- connecting measures to real business outcomes
+
+VISTA is not a celebration of activity. It is a discipline for better decisions under accelerated output.
+
+---
+
+## The VISTA decision rule
+
+The right next item is not the loudest item, the easiest item, or even always the item with the highest apparent value.
+
+It is the item with the best **timing-adjusted strategic upside**, subject to acceptable downside risk, sufficient clarity, and realistic verification and activation readiness.
+
+---
+
+## ODIM
+
+One of the ways VISTA teaches metric design is through **ODIM** (thanks to Larry Maccherone's leadership):
+
+- **Outcome**
+- **Decision**
+- **Insight**
+- **Measure**
+
+ODIM helps teams make sure their measures connect to the business outcomes they want, rather than floating as isolated output counters.
+
+In practice, teams often move in both directions:
+- **ODIM** when designing measurement from desired outcomes
+- **MIDO** when starting from existing measures and working backward to test whether they connect to real outcomes
+
+---
+
+## Who this is for
+
+VISTA is for:
+- CTOs and engineering leaders
+- product and platform leaders
+- AI engineering teams
+- organizations trying to avoid AI slop
+- teams drowning in pull requests or feature requests
+- companies trying to connect engineering work to strategy and customer outcomes
+
+It is especially relevant for organizations that are discovering a new problem:
+
+AI can help them build more, but it does not automatically help them build the right things, safely, at the right time, with the right follow-through.
 
 ## Key Principles:
 
@@ -20,7 +132,7 @@ As AI accelerates code production, engineering performance must focus on outcome
 
 ## VISTA Manifesto
 
-AI has made software output easier to produce. That does not mean engineering performance is improving.
+AI has made it easier to produce software output. That does not mean engineering performance is improving.
 
 When code gets cheaper, judgment becomes more important.
 
@@ -40,8 +152,4 @@ VISTA measures five things:
 
 VISTA is not a celebration of output. It is a discipline for better engineering judgment in the age of AI.
 
-### Repo Structure:
 
-* `/docs`: Each VISTA dimension and principle in separate markdown files.
-* `/articles`: In-depth articles expanding each concept.
-* Contribute via issues or pull requests—let’s build this perspective together!
