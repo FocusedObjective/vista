@@ -52,7 +52,7 @@ Measures:
 * hindsight quality of priority choices
 * share of work with strong strategic rationale
 
-### **S — Safety**
+### **S — Safety & Security**
 
 Did the work avoid hidden downside and hold up in reality?
 
@@ -64,6 +64,7 @@ Measures:
 * hidden post-merge cost
 * review and verification effectiveness
 * trust-sensitive failure rates
+* security review and incidents
 
 ### **T — Timing**
 
