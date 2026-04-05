@@ -40,8 +40,8 @@ That is intentional.
 
 A simple metrics set can spread quickly because it is easy to explain. But engineering in the age of AI needs more than a narrow view of speed and stability. It needs a better overall view of direction, value, risk, timing, and learning.
 
-**Speed without direction is waste.**
-**Output is not outcome.**
+**Speed without direction is waste.**  
+**Output is not outcome.**  
 **Complexity with purpose is better than simplicity that hides what matters.**
 
 VISTA is designed to be richer where it needs to be, while still being practical enough to start small and grow over time.
@@ -81,7 +81,7 @@ That means teams need better ways to think about:
 - preventing AI slop in code, pull requests, and product direction
 - connecting measures to real business outcomes
 
-VISTA is not a celebration of activity. It is a discipline for better decisions under accelerated output.
+VISTA is not a celebration of activity. It is a discipline for better decisions under accelerating output.
 
 ---
 
@@ -95,7 +95,7 @@ It is the item with the best **timing-adjusted strategic upside**, subject to ac
 
 ## ODIM
 
-One of the ways VISTA teaches metric design is through **ODIM** (thanks to Larry Maccherone's leadership):
+One of the ways VISTA teaches metric design is through **ODIM**:
 
 - **Outcome**
 - **Decision**
@@ -124,32 +124,82 @@ It is especially relevant for organizations that are discovering a new problem:
 
 AI can help them build more, but it does not automatically help them build the right things, safely, at the right time, with the right follow-through.
 
-## Key Principles:
+---
 
-* Output is not the outcome.
-* Speed without direction is a waste.
-* The best next work is the one with the best strategic and timing-adjusted upside.
+## Repo structure
 
-## VISTA Manifesto
+```text
+README.md
+docs/
+  value.md
+  impact.md
+  safety.md
+  timing.md
+  adaptation.md
+  odim.md
+  decision-model.md
+  principles.md
+  principles/
+```
 
-AI has made it easier to produce software output. That does not mean engineering performance is improving.
+The goal of this repo is to make the framework:
+- understandable
+- discussable
+- evolvable
+- usable in real organizations
+- easy to extend through articles, examples, diagrams, and tooling
 
-When code gets cheaper, judgment becomes more important.
+---
 
-Teams can now generate more code, more pull requests, and more shipped changes than ever. But that makes weak prioritization, vague strategy, shallow review, and hidden post-merge cost more dangerous, not less.
+## Start here
 
-What matters is not how much work moves. What matters is whether the right work moves, whether it is safe enough to move now, whether the organization can realize value from it, and whether the system learns from what happens next.
+If you are new to VISTA, start with:
 
-That is the purpose of VISTA.
+1. The five dimensions
+2. The principles
+3. ODIM
+4. The decision model
 
-VISTA measures five things:
+Then go deeper into the individual dimensions and principles.
 
-* whether work created value
-* whether it advanced strategic impact
-* whether it avoided hidden downside
-* whether timing and cost of delay were handled well
-* whether the system adapted and improved
+---
 
-VISTA is not a celebration of output. It is a discipline for better engineering judgment in the age of AI.
+## Core idea in one sentence
+
+**VISTA gives leaders and teams an overall view of whether AI engineering is creating value, advancing strategy, managing hidden risk, prioritizing well, and improving over time.**
+
+---
+
+## Contributing
+
+This repo is intended to be open, discussable, and useful.
+
+Good contributions include:
+- clarifications to the framework
+- examples from real teams
+- diagrams and teaching aids
+- critiques and counterexamples
+- case studies
+- scoring patterns
+- templates for implementation
+
+The goal is not to make VISTA rigid.
+The goal is to make it useful.
+
+---
+
+## License
+ Apache 2.0 for broad adoption and implementation.
+
+---
+
+## Final thought
+
+AI makes output easier.
+
+That does not mean engineering performance is improving.
+
+VISTA exists to help teams see whether the movement was worth it.
+
 
 
