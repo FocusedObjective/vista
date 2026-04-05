@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1700" height="1100" viewBox="0 0 1700 1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .title { font: 700 40px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 19px Arial, Helvetica, sans-serif; fill: #475569; }
+      .centerTitle { font: 700 46px Arial, Helvetica, sans-serif; fill: white; }
+      .centerSub { font: 500 20px Arial, Helvetica, sans-serif; fill: #dbeafe; }
+      .cardTitle { font: 700 28px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .question { font: 600 18px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .body { font: 400 17px Arial, Helvetica, sans-serif; fill: #334155; }
+      .label { font: 700 15px Arial, Helvetica, sans-serif; fill: #1d4ed8; }
+      .footer { font: 500 16px Arial, Helvetica, sans-serif; fill: #334155; }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#94a3b8" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1700" height="1100" fill="#f8fafc"/>
+  <text x="80" y="88" class="title">VISTA dimensions</text>
+  <text x="80" y="124" class="subtitle">Value, Impact, Safety, Timing, and Adaptation — the five documented dimensions of the framework.</text>
+
+  <circle cx="850" cy="545" r="165" fill="#2563eb" filter="url(#shadow)"/>
+  <text x="850" y="520" text-anchor="middle" class="centerTitle">VISTA</text>
+  <text x="850" y="556" text-anchor="middle" class="centerSub">Outcome-optimized</text>
+  <text x="850" y="584" text-anchor="middle" class="centerSub">AI engineering</text>
+
+  <line x1="850" y1="380" x2="850" y2="245" stroke="#93c5fd" stroke-width="5"/>
+  <line x1="1005" y1="455" x2="1225" y2="355" stroke="#93c5fd" stroke-width="5"/>
+  <line x1="1000" y1="635" x2="1230" y2="760" stroke="#93c5fd" stroke-width="5"/>
+  <line x1="695" y1="635" x2="470" y2="760" stroke="#93c5fd" stroke-width="5"/>
+  <line x1="690" y1="455" x2="470" y2="355" stroke="#93c5fd" stroke-width="5"/>
+
+<rect x="560" y="80" width="580" height="180" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
+<text x="588" y="124" class="cardTitle">Value</text>
+<text x="588" y="158" class="question">Did this work create meaningful user or business</text>
+<text x="588" y="182" class="question">benefit?</text>
+<text x="588" y="208" class="label">Typical signals</text>
+<text x="608" y="232" class="body">• adoption by intended users</text>
+<text x="608" y="260" class="body">• repeat usage over time</text>
+<text x="608" y="288" class="body">• measurable movement in a target KPI</text>
+<rect x="1160" y="210" width="450" height="220" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
+<text x="1188" y="254" class="cardTitle">Impact</text>
+<text x="1188" y="288" class="question">Did this work materially advance</text>
+<text x="1188" y="312" class="question">strategic goals or competitive</text>
+<text x="1188" y="336" class="question">position?</text>
+<text x="1188" y="358" class="label">Typical signals</text>
+<text x="1208" y="382" class="body">• work clearly maps to strategic goals</text>
+<text x="1208" y="414" class="body">• completed work strengthens an important</text>
+<text x="1208" y="436" class="body">capability</text>
+<text x="1208" y="446" class="body">• priority decisions hold up in hindsight</text>
+<rect x="1110" y="700" width="500" height="230" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
+<text x="1138" y="744" class="cardTitle">Timing</text>
+<text x="1138" y="778" class="question">Was scarce capacity directed to the</text>
+<text x="1138" y="802" class="question">right work at the right time?</text>
+<text x="1138" y="848" class="label">Typical signals</text>
+<text x="1158" y="872" class="body">• capacity shifts toward</text>
+<text x="1158" y="894" class="body">high-cost-of-delay work</text>
+<text x="1158" y="904" class="body">• teams can explain why one item is above</text>
+<text x="1158" y="926" class="body">another</text>
+<text x="1158" y="936" class="body">• sequencing decisions hold up better in</text>
+<text x="1158" y="958" class="body">hindsight</text>
+<rect x="90" y="700" width="500" height="230" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
+<text x="118" y="744" class="cardTitle">Adaptation</text>
+<text x="118" y="778" class="question">Is the system learning and improving</text>
+<text x="118" y="802" class="question">over time?</text>
+<text x="118" y="848" class="label">Typical signals</text>
+<text x="138" y="872" class="body">• repeated issue types cause fewer</text>
+<text x="138" y="894" class="body">regressions</text>
+<text x="138" y="904" class="body">• review patterns become more targeted and</text>
+<text x="138" y="926" class="body">effective</text>
+<text x="138" y="936" class="body">• lessons are reused, not merely</text>
+<text x="138" y="958" class="body">documented</text>
+<rect x="90" y="210" width="500" height="240" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
+<text x="118" y="254" class="cardTitle">Safety</text>
+<text x="118" y="288" class="question">Did this work avoid hidden downside</text>
+<text x="118" y="312" class="question">and hold up in reality?</text>
+<text x="118" y="358" class="label">Typical signals</text>
+<text x="138" y="382" class="body">• regressions stay low relative to</text>
+<text x="138" y="404" class="body">throughput</text>
+<text x="138" y="414" class="body">• review depth is proportionate to risk</text>
+<text x="138" y="446" class="body">• privacy and security concerns are</text>
+<text x="138" y="468" class="body">identified early</text>
+<text x="80" y="1038" class="footer">VISTA focuses on outcomes, strategy, downside risk, prioritization quality, and learning over time — not just output counts.</text>
+</svg>
