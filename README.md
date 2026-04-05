@@ -1,4 +1,4 @@
-# VISTA : The Overall View for Outcome-Optimized AI Engineering
+# VISTA : The Big Picture for Outcome-Optimized AI Engineering
 
 **VISTA** stands for **Value, Impact, Safety, Timing, and Adaptation**.
 
