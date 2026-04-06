@@ -50,145 +50,150 @@
   <text x="72" y="126" class="bgSub">shape delivery, and learn from outcomes.</text>
 
   <!-- ========== LEFT PANEL: FIVE DIMENSIONS ========== -->
-  <rect x="72" y="162" width="480" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="72" y="162" width="504" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="100" y="200" class="label">THE FIVE DIMENSIONS</text>
   <text x="100" y="228" class="panelTitle">What you look at</text>
 
-  <!-- Value -->
-  <rect x="100" y="258" width="424" height="82" rx="16" fill="#e8f0fe"/>
-  <rect x="100" y="258" width="6" height="82" rx="3" fill="#4a7fd4"/>
-  <circle cx="140" cy="299" r="20" fill="#4a7fd4"/>
-  <text x="140" y="306" text-anchor="middle" class="dimLetter">V</text>
-  <text x="174" y="293" class="dimTitle" fill="#2a5aa0">Value</text>
-  <text x="174" y="314" class="dimBody" fill="#3a5a7a">Did the work create meaningful user or business benefit?</text>
+  <!-- Value (Blue) -->
+  <rect x="100" y="258" width="448" height="92" rx="16" fill="#edf3fb"/>
+  <rect x="100" y="258" width="6" height="92" rx="3" fill="#5a8ab5"/>
+  <circle cx="140" cy="300" r="20" fill="#5a8ab5"/>
+  <text x="140" y="307" text-anchor="middle" class="dimLetter">V</text>
+  <text x="174" y="293" class="dimTitle" fill="#3a6a95">Value</text>
+  <text x="174" y="314" class="dimBody" fill="#4a6a85">Did the work create meaningful user</text>
+  <text x="174" y="330" class="dimBody" fill="#4a6a85">or business benefit?</text>
 
-  <!-- Impact -->
-  <rect x="100" y="356" width="424" height="82" rx="16" fill="#fef3e0"/>
-  <rect x="100" y="356" width="6" height="82" rx="3" fill="#d4943a"/>
-  <circle cx="140" cy="397" r="20" fill="#d4943a"/>
-  <text x="140" y="404" text-anchor="middle" class="dimLetter">I</text>
-  <text x="174" y="391" class="dimTitle" fill="#9a6b1e">Impact</text>
-  <text x="174" y="412" class="dimBody" fill="#6e5526">Did the choice materially advance strategy or position?</text>
+  <!-- Impact (Yellow) -->
+  <rect x="100" y="362" width="448" height="92" rx="16" fill="#faf5e4"/>
+  <rect x="100" y="362" width="6" height="92" rx="3" fill="#c4a240"/>
+  <circle cx="140" cy="404" r="20" fill="#c4a240"/>
+  <text x="140" y="411" text-anchor="middle" class="dimLetter">I</text>
+  <text x="174" y="397" class="dimTitle" fill="#8a7020">Impact</text>
+  <text x="174" y="418" class="dimBody" fill="#6a5a30">Did the choice materially advance</text>
+  <text x="174" y="434" class="dimBody" fill="#6a5a30">strategy or position?</text>
 
-  <!-- Safety -->
-  <rect x="100" y="454" width="424" height="82" rx="16" fill="#e4f0ef"/>
-  <rect x="100" y="454" width="6" height="82" rx="3" fill="#3a8a7a"/>
-  <circle cx="140" cy="495" r="20" fill="#3a8a7a"/>
-  <text x="140" y="502" text-anchor="middle" class="dimLetter">S</text>
-  <text x="174" y="489" class="dimTitle" fill="#2a6a5d">Safety</text>
-  <text x="174" y="510" class="dimBody" fill="#3a5a52">Did it avoid hidden downside, including security and trust risk?</text>
+  <!-- Safety (Green) -->
+  <rect x="100" y="466" width="448" height="92" rx="16" fill="#ebf3eb"/>
+  <rect x="100" y="466" width="6" height="92" rx="3" fill="#5a9a60"/>
+  <circle cx="140" cy="508" r="20" fill="#5a9a60"/>
+  <text x="140" y="515" text-anchor="middle" class="dimLetter">S</text>
+  <text x="174" y="501" class="dimTitle" fill="#3a7a40">Safety</text>
+  <text x="174" y="522" class="dimBody" fill="#3a5a3e">Did it avoid hidden downside, including</text>
+  <text x="174" y="538" class="dimBody" fill="#3a5a3e">security and trust risk?</text>
 
-  <!-- Timing -->
-  <rect x="100" y="552" width="424" height="82" rx="16" fill="#e8f2e4"/>
-  <rect x="100" y="552" width="6" height="82" rx="3" fill="#5a8a4a"/>
-  <circle cx="140" cy="593" r="20" fill="#5a8a4a"/>
-  <text x="140" y="600" text-anchor="middle" class="dimLetter">T</text>
-  <text x="174" y="587" class="dimTitle" fill="#3a6a32">Timing</text>
-  <text x="174" y="608" class="dimBody" fill="#3a5a36">Was scarce capacity directed to the right work at the right time?</text>
+  <!-- Timing (Red) -->
+  <rect x="100" y="570" width="448" height="92" rx="16" fill="#fae8e6"/>
+  <rect x="100" y="570" width="6" height="92" rx="3" fill="#c07060"/>
+  <circle cx="140" cy="612" r="20" fill="#c07060"/>
+  <text x="140" y="619" text-anchor="middle" class="dimLetter">T</text>
+  <text x="174" y="605" class="dimTitle" fill="#8a4040">Timing</text>
+  <text x="174" y="626" class="dimBody" fill="#6a4a45">Was scarce capacity directed to the right</text>
+  <text x="174" y="642" class="dimBody" fill="#6a4a45">work at the right time?</text>
 
-  <!-- Adaptation -->
-  <rect x="100" y="650" width="424" height="82" rx="16" fill="#ede4f2"/>
-  <rect x="100" y="650" width="6" height="82" rx="3" fill="#7a5a9a"/>
-  <circle cx="140" cy="691" r="20" fill="#7a5a9a"/>
-  <text x="140" y="698" text-anchor="middle" class="dimLetter">A</text>
-  <text x="174" y="685" class="dimTitle" fill="#5a3a7a">Adaptation</text>
-  <text x="174" y="706" class="dimBody" fill="#5a4a6a">Is the system learning, routing better, and repeating mistakes less?</text>
+  <!-- Adaptation (Magenta) -->
+  <rect x="100" y="674" width="448" height="92" rx="16" fill="#f2e8f4"/>
+  <rect x="100" y="674" width="6" height="92" rx="3" fill="#a060a0"/>
+  <circle cx="140" cy="716" r="20" fill="#a060a0"/>
+  <text x="140" y="723" text-anchor="middle" class="dimLetter">A</text>
+  <text x="174" y="709" class="dimTitle" fill="#7a3a7a">Adaptation</text>
+  <text x="174" y="730" class="dimBody" fill="#6a4a6a">Is the system learning, routing better,</text>
+  <text x="174" y="746" class="dimBody" fill="#6a4a6a">and repeating mistakes less?</text>
 
   <!-- ========== CENTER TOP: DECISION RULE ========== -->
-  <rect x="592" y="162" width="560" height="320" rx="20" fill="url(#ruleBox)" filter="url(#shadow)"/>
-  <text x="624" y="200" class="label" fill="#8aa0b8">CENTRAL DECISION RULE</text>
-  <text x="624" y="240" class="rule">Choose the item with the best</text>
-  <text x="624" y="274" class="rule">timing-adjusted strategic upside,</text>
-  <text x="624" y="308" class="rule">subject to risk, clarity, verification,</text>
-  <text x="624" y="342" class="rule">and activation readiness.</text>
-  <text x="624" y="388" class="ruleBody">VISTA is not a throughput scoreboard.</text>
-  <text x="624" y="410" class="ruleBody">It is a comparative choice model for the AI era,</text>
-  <text x="624" y="432" class="ruleBody">where output is cheap and judgment is scarce.</text>
+  <rect x="610" y="162" width="576" height="320" rx="20" fill="url(#ruleBox)" filter="url(#shadow)"/>
+  <text x="642" y="200" class="label" fill="#8aa0b8">CENTRAL DECISION RULE</text>
+  <text x="642" y="240" class="rule">Choose the item with the best</text>
+  <text x="642" y="274" class="rule">timing-adjusted strategic upside,</text>
+  <text x="642" y="308" class="rule">subject to risk, clarity, verification,</text>
+  <text x="642" y="342" class="rule">and activation readiness.</text>
+  <text x="642" y="388" class="ruleBody">VISTA is not a throughput scoreboard.</text>
+  <text x="642" y="410" class="ruleBody">It is a comparative choice model for the AI era,</text>
+  <text x="642" y="432" class="ruleBody">where output is cheap and judgment is scarce.</text>
 
   <!-- ========== CENTER BOTTOM: MEASURE TIMING ========== -->
-  <rect x="592" y="512" width="560" height="350" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="624" y="550" class="label">MEASURE TIMING</text>
-  <text x="624" y="578" class="panelTitle">How the metrics span time</text>
+  <rect x="610" y="512" width="576" height="350" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="642" y="550" class="label">MEASURE TIMING</text>
+  <text x="642" y="578" class="panelTitle">How the metrics span time</text>
 
-  <!-- Four timing boxes in a 2x2 grid -->
-  <rect x="624" y="604" width="120" height="70" rx="14" fill="#e8f0fe"/>
-  <text x="684" y="636" text-anchor="middle" class="mini">Leading</text>
-  <text x="684" y="654" text-anchor="middle" class="miniSub">Before</text>
+  <!-- Four timing boxes (116px wide, 16px gaps) -->
+  <rect x="642" y="604" width="116" height="70" rx="14" fill="#edf3fb"/>
+  <text x="700" y="636" text-anchor="middle" class="mini">Leading</text>
+  <text x="700" y="654" text-anchor="middle" class="miniSub">Before</text>
 
-  <rect x="762" y="604" width="120" height="70" rx="14" fill="#fef3e0"/>
-  <text x="822" y="636" text-anchor="middle" class="mini">In-flight</text>
-  <text x="822" y="654" text-anchor="middle" class="miniSub">During</text>
+  <rect x="774" y="604" width="116" height="70" rx="14" fill="#faf5e4"/>
+  <text x="832" y="636" text-anchor="middle" class="mini">In-flight</text>
+  <text x="832" y="654" text-anchor="middle" class="miniSub">During</text>
 
-  <rect x="900" y="604" width="120" height="70" rx="14" fill="#e4f0ef"/>
-  <text x="960" y="636" text-anchor="middle" class="mini">Lagging</text>
-  <text x="960" y="654" text-anchor="middle" class="miniSub">After</text>
+  <rect x="906" y="604" width="116" height="70" rx="14" fill="#fae8e6"/>
+  <text x="964" y="636" text-anchor="middle" class="mini">Lagging</text>
+  <text x="964" y="654" text-anchor="middle" class="miniSub">After</text>
 
-  <rect x="1038" y="604" width="120" height="70" rx="14" fill="#ede4f2"/>
-  <text x="1098" y="636" text-anchor="middle" class="mini">Learning</text>
-  <text x="1098" y="654" text-anchor="middle" class="miniSub">Patterns</text>
+  <rect x="1038" y="604" width="116" height="70" rx="14" fill="#f2e8f4"/>
+  <text x="1096" y="636" text-anchor="middle" class="mini">Learning</text>
+  <text x="1096" y="654" text-anchor="middle" class="miniSub">Patterns</text>
 
   <!-- Flow arrows between timing boxes -->
-  <line x1="744" y1="639" x2="762" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="882" y1="639" x2="900" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
-  <line x1="1020" y1="639" x2="1038" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="758" y1="639" x2="774" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="890" y1="639" x2="906" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1022" y1="639" x2="1038" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
 
-  <text x="624" y="712" class="panelBody">Healthy measurement mixes all four categories.</text>
-  <text x="624" y="732" class="panelBody">If you only watch lagging signals, you only learn</text>
-  <text x="624" y="752" class="panelBody">after value, risk, or timing mistakes are already expensive.</text>
+  <text x="642" y="712" class="panelBody">Healthy measurement mixes all four categories.</text>
+  <text x="642" y="732" class="panelBody">If you only watch lagging signals, you only learn</text>
+  <text x="642" y="752" class="panelBody">after value, risk, or timing mistakes are already expensive.</text>
 
   <!-- Learning feeds back arrow -->
-  <path d="M1098,674 L1098,782 L684,782 L684,674" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
-  <text x="891" y="800" text-anchor="middle" class="miniSub">Learning feeds forward</text>
+  <path d="M1096,674 L1096,782 L700,782 L700,674" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
+  <text x="898" y="800" text-anchor="middle" class="miniSub">Learning feeds forward</text>
 
   <!-- ========== RIGHT PANEL: OPERATING MODEL ========== -->
-  <rect x="1192" y="162" width="536" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="1224" y="200" class="label">OPERATING MODEL</text>
-  <text x="1224" y="228" class="panelTitle">How VISTA is used</text>
+  <rect x="1220" y="162" width="508" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1252" y="200" class="label">OPERATING MODEL</text>
+  <text x="1252" y="228" class="panelTitle">How VISTA is used</text>
 
-  <!-- Layer 1 -->
-  <rect x="1224" y="260" width="476" height="170" rx="16" fill="#e8f0fe"/>
-  <text x="1252" y="292" class="layerTitle">Layer 1: Should we do this?</text>
-  <text x="1252" y="316" class="layerBody">Score strategic relevance, expected value,</text>
-  <text x="1252" y="334" class="layerBody">cost of delay, downside risk, clarity,</text>
-  <text x="1252" y="352" class="layerBody">verification readiness, activation burden,</text>
-  <text x="1252" y="370" class="layerBody">and AI suitability.</text>
-  <rect x="1252" y="394" width="96" height="24" rx="12" fill="#ffffff"/>
-  <text x="1300" y="410" text-anchor="middle" class="chip">Weights rank</text>
-  <rect x="1360" y="394" width="86" height="24" rx="12" fill="#ffffff"/>
-  <text x="1403" y="410" text-anchor="middle" class="chip">Gates stop</text>
+  <!-- Layer 1 (Blue) -->
+  <rect x="1252" y="260" width="448" height="170" rx="16" fill="#edf3fb"/>
+  <text x="1280" y="292" class="layerTitle">Layer 1: Should we do this?</text>
+  <text x="1280" y="316" class="layerBody">Score strategic relevance, expected value,</text>
+  <text x="1280" y="334" class="layerBody">cost of delay, downside risk, clarity,</text>
+  <text x="1280" y="352" class="layerBody">verification readiness, activation burden,</text>
+  <text x="1280" y="370" class="layerBody">and AI suitability.</text>
+  <rect x="1280" y="394" width="96" height="24" rx="12" fill="#ffffff"/>
+  <text x="1328" y="410" text-anchor="middle" class="chip">Weights rank</text>
+  <rect x="1388" y="394" width="86" height="24" rx="12" fill="#ffffff"/>
+  <text x="1431" y="410" text-anchor="middle" class="chip">Gates stop</text>
 
-  <!-- Layer 2 -->
-  <rect x="1224" y="452" width="476" height="170" rx="16" fill="#e4f0ef"/>
-  <text x="1252" y="484" class="layerTitle">Layer 2: How should we do it?</text>
-  <text x="1252" y="508" class="layerBody">Route work into execution lanes and match</text>
-  <text x="1252" y="526" class="layerBody">review depth, verification strength, rollback</text>
-  <text x="1252" y="544" class="layerBody">sensitivity, and human oversight to the true</text>
-  <text x="1252" y="562" class="layerBody">delivery risk.</text>
-  <rect x="1252" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
-  <text x="1286" y="596" text-anchor="middle" class="chip">AI-first</text>
-  <rect x="1332" y="580" width="116" height="24" rx="12" fill="#ffffff"/>
-  <text x="1390" y="596" text-anchor="middle" class="chip">AI + guardrails</text>
-  <rect x="1460" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
-  <text x="1494" y="596" text-anchor="middle" class="chip">Human</text>
+  <!-- Layer 2 (Green) -->
+  <rect x="1252" y="452" width="448" height="170" rx="16" fill="#ebf3eb"/>
+  <text x="1280" y="484" class="layerTitle">Layer 2: How should we do it?</text>
+  <text x="1280" y="508" class="layerBody">Route work into execution lanes and match</text>
+  <text x="1280" y="526" class="layerBody">review depth, verification strength, rollback</text>
+  <text x="1280" y="544" class="layerBody">sensitivity, and human oversight to the true</text>
+  <text x="1280" y="562" class="layerBody">delivery risk.</text>
+  <rect x="1280" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
+  <text x="1314" y="596" text-anchor="middle" class="chip">AI-first</text>
+  <rect x="1360" y="580" width="116" height="24" rx="12" fill="#ffffff"/>
+  <text x="1418" y="596" text-anchor="middle" class="chip">AI + guardrails</text>
+  <rect x="1488" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
+  <text x="1522" y="596" text-anchor="middle" class="chip">Human</text>
 
-  <!-- Layer 3 -->
-  <rect x="1224" y="644" width="476" height="190" rx="16" fill="#fef3e0"/>
-  <text x="1252" y="676" class="layerTitle">Layer 3: Was it worth it?</text>
-  <text x="1252" y="700" class="layerBody">Inspect adoption, repeat usage, strategic</text>
-  <text x="1252" y="718" class="layerBody">movement, regressions, hidden cleanup,</text>
-  <text x="1252" y="736" class="layerBody">activation success, and hindsight quality</text>
-  <text x="1252" y="754" class="layerBody">of the priority choice.</text>
-  <text x="1252" y="784" class="layerBody">Those results flow back into the next</text>
-  <text x="1252" y="802" class="layerBody">prioritization round.</text>
+  <!-- Layer 3 (Yellow) -->
+  <rect x="1252" y="644" width="448" height="190" rx="16" fill="#faf5e4"/>
+  <text x="1280" y="676" class="layerTitle">Layer 3: Was it worth it?</text>
+  <text x="1280" y="700" class="layerBody">Inspect adoption, repeat usage, strategic</text>
+  <text x="1280" y="718" class="layerBody">movement, regressions, hidden cleanup,</text>
+  <text x="1280" y="736" class="layerBody">activation success, and hindsight quality</text>
+  <text x="1280" y="754" class="layerBody">of the priority choice.</text>
+  <text x="1280" y="784" class="layerBody">Those results flow back into the next</text>
+  <text x="1280" y="802" class="layerBody">prioritization round.</text>
 
   <!-- ========== CONNECTING ARROWS ========== -->
   <!-- Dimensions → Decision Rule -->
-  <line x1="552" y1="400" x2="592" y2="400" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="576" y1="400" x2="610" y2="400" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
   <!-- Decision Rule → Operating Model -->
-  <line x1="1152" y1="340" x2="1192" y2="340" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1186" y1="340" x2="1220" y2="340" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
   <!-- Layer 3 → Dimensions feedback -->
-  <path d="M1462,834 L1462,900 L312,900 L312,862" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
-  <text x="887" y="920" text-anchor="middle" class="miniSub">Layer 3 outcomes feed back into dimension scores and the next prioritization round</text>
+  <path d="M1476,834 L1476,900 L324,900 L324,862" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
+  <text x="900" y="920" text-anchor="middle" class="miniSub">Layer 3 outcomes feed back into dimension scores and the next prioritization round</text>
 
   <!-- ========== FOOTER ========== -->
   <rect x="72" y="960" width="1656" height="160" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5"/>
