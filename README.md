@@ -2,8 +2,6 @@
 
 **VISTA** stands for **Value, Impact, Safety, Timing, and Adaptation**.
 
-In VISTA, **Safety explicitly includes security**. The S stays Safety, but the dimension covers whether work avoids regressions, security failures, privacy issues, trust damage, and other hidden downside.
-
 VISTA is an open framework for outcome-optimized AI engineering. It gives leaders and teams an overall view of whether engineering is producing the right outcomes, not just more code, more pull requests, or more shipped changes.
 
 As coding gets cheaper and faster, the real constraint shifts from code production to judgment: choosing the right work, shaping it well before coding starts, applying the right review depth, verifying the right risks, and learning from what happens after release.
@@ -32,8 +30,6 @@ What they often cannot tell you is whether that work:
 
 VISTA exists to make that visible.
 
----
-
 ## Complexity with purpose
 
 Yes, VISTA is more nuanced than lighter-weight frameworks.
@@ -48,8 +44,6 @@ A simple metrics set can spread quickly because it is easy to explain. But engin
 
 VISTA is designed to be richer where it needs to be, while still being practical enough to start small and grow over time.
 
----
-
 ## The five dimensions
 
 ### Value
@@ -59,7 +53,7 @@ Did the work create meaningful user or business benefit?
 Did it materially advance strategic goals or competitive position?
 
 ### Safety
-Did it avoid hidden downside, including regressions, security failures, privacy issues, trust damage, or fragile outcomes?
+Did it avoid hidden downside, including regressions, security failures, privacy issues, trust damage, or fragile outcomes? In VISTA, **Safety explicitly includes security**. The S stays Safety, but the dimension covers whether work avoids regressions, security failures, privacy issues, trust damage, and other hidden downside.
 
 ### Timing
 Was capacity directed to the right work at the right time, especially where cost of delay was highest?
@@ -67,19 +61,7 @@ Was capacity directed to the right work at the right time, especially where cost
 ### Adaptation
 Is the system learning and improving over time?
 
----
-
-## Visuals
-
-The repo now includes a set of SVG diagrams in [images/README.md](images/README.md):
-
 ![VISTA framework map](images/vista_dimensions.svg)
-
-![VISTA metrics matrix](images/vista_metrics_matrix.svg)
-
-![VISTA dashboard views](images/vista_dashboards.svg)
-
----
 
 ## What VISTA is trying to change
 
@@ -97,17 +79,13 @@ That means teams need better ways to think about:
 
 VISTA is not a celebration of activity. It is a discipline for better decisions under accelerating output.
 
----
-
 ## The VISTA decision rule
 
 The right next item is not the loudest item, the easiest item, or even always the item with the highest apparent value.
 
 It is the item with the best **timing-adjusted strategic upside**, subject to acceptable downside risk, sufficient clarity, and realistic verification and activation readiness.
 
----
-
-## ODIM
+## [ODIM](docs/odim.md)
 
 One of the ways VISTA teaches metric design is through **ODIM**, credited to Larry Maccherone:
 
@@ -122,8 +100,6 @@ In practice, teams often move in both directions:
 - **ODIM** when designing measurement from desired outcomes
 - **MIDO** when starting from existing measures and working backward to test whether they connect to real outcomes
 
----
-
 ## Who this is for
 
 VISTA is for:
@@ -137,8 +113,6 @@ VISTA is for:
 It is especially relevant for organizations that are discovering a new problem:
 
 AI can help them build more, but it does not automatically help them build the right things, safely and securely, at the right time, with the right follow-through.
-
----
 
 ## Repo structure
 
@@ -156,6 +130,9 @@ docs/
   profiles.md
   dashboards.md
   principles.md
+prior-art/
+  sdpi.md
+  six-dimensions.md
 principles/
   01-output-is-not-outcome.md
   02-speed-without-direction-is-waste.md
@@ -170,26 +147,27 @@ The goal of this repo is to make the framework:
 - usable in real organizations
 - easy to extend through articles, examples, diagrams, and tooling
 
----
-
 ## Start here
 
 If you are new to VISTA, start with:
 
-1. [The five dimensions](docs/README.md) — Value, Impact, Safety (including security), Timing, Adaptation
-2. [The principles](principles/README.md) — the ten ideas that shape how VISTA thinks
-3. [ODIM](docs/odim.md) — Larry Maccherone's Outcome, Decision, Insight, Measure framework for designing metrics that connect to outcomes
-4. [The decision model](docs/decision-model.md) — how to choose, shape, and evaluate work
+1. [Prior art](prior-art/README.md) — the frameworks and ideas VISTA builds on
+2. [The five dimensions](docs/README.md) — Value, Impact, Safety (including security), Timing, Adaptation
+3. [The principles](principles/README.md) — the ten ideas that shape how VISTA thinks
+4. [ODIM](docs/odim.md) — Larry Maccherone's Outcome, Decision, Insight, Measure framework for designing metrics that connect to outcomes
+5. [The decision model](docs/decision-model.md) — how to choose, shape, and evaluate work
 
 Then go deeper: [scoring template](docs/scoring.md), [team profiles](docs/profiles.md), and [dashboards](docs/dashboards.md).
-
----
 
 ## Core idea in one sentence
 
 **VISTA gives leaders and teams an overall view of whether AI engineering is creating value, advancing strategy, managing hidden risk, prioritizing well, and improving over time.**
 
----
+## Metrics and Dashboards
+
+![VISTA metrics matrix](images/vista_metrics_matrix.svg)
+
+![VISTA dashboard views](images/vista_dashboards.svg)
 
 ## Contributing
 
@@ -207,8 +185,6 @@ Good contributions include:
 The goal is not to make VISTA rigid.
 The goal is to make it useful.
 
----
-
 ## Delivery Tower
 
 VISTA is the theory behind [Delivery Tower](https://deliverytower.com), a product that implements these ideas as working software. Delivery Tower provides three towers:
@@ -218,8 +194,6 @@ VISTA is the theory behind [Delivery Tower](https://deliverytower.com), a produc
 - **AI Adoption Tower** — Prove that AI delivery is getting better, not just bigger. Track balanced adoption, safe and secure execution, and lane accuracy.
 
 VISTA provides the framework and thinking. Delivery Tower provides the tooling.
-
----
 
 ## License
  Apache 2.0 for broad adoption and implementation.
