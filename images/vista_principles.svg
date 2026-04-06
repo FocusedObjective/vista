@@ -1,71 +1,150 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1700" height="1100" viewBox="0 0 1700 1100" xmlns="http://www.w3.org/2000/svg">
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VISTA principles map</title>
+  <desc id="desc">A grouped view of the ten VISTA principles showing how they shape outcome discipline, prioritization, delivery, and organizational learning.</desc>
   <defs>
     <style>
-      .title { font: 700 40px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .subtitle { font: 400 19px Arial, Helvetica, sans-serif; fill: #475569; }
-      .section { font: 700 24px Arial, Helvetica, sans-serif; fill: #1e293b; }
-      .body { font: 500 20px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .num { font: 700 22px Arial, Helvetica, sans-serif; fill: white; }
-      .footer { font: 600 18px Arial, Helvetica, sans-serif; fill: #1d4ed8; }
-      .small { font: 500 16px Arial, Helvetica, sans-serif; fill: #475569; }
+      .title    { font: 700 42px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .subtitle { font: 400 18px 'Segoe UI', system-ui, sans-serif; fill: #556677; }
+      .section  { font: 700 22px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .body     { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .small    { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #5a6a7c; }
+      .label    { font: 700 11px 'Segoe UI', system-ui, sans-serif; fill: #7a8da0; letter-spacing: 2px; }
+      .num      { font: 700 14px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .principle{ font: 700 15px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .pBody    { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .discSub  { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #5a6a7c; }
+      .discTitle{ font: 700 18px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .summBody { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .footBody { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #4a5a6b; }
     </style>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#94a3b8" flood-opacity="0.22"/>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a2332" flood-opacity="0.06"/>
     </filter>
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L14,7 L0,14 z" fill="#94a3b8"/>
-    </marker>
+    <linearGradient id="page" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#f0f2f6"/>
+    </linearGradient>
   </defs>
-  <rect width="1700" height="1100" fill="#f8fafc"/>
-  <text x="80" y="88" class="title">VISTA principles</text>
-  <text x="80" y="124" class="subtitle">The principles are the documented “how to think” layer of the framework.</text>
 
-  <rect x="80" y="165" width="1540" height="110" rx="28" ry="28" fill="white" filter="url(#shadow)"/>
-  <text x="120" y="212" class="footer">Dimensions tell you what to look at. Principles tell you how to think.</text>
-  <text x="120" y="244" class="small">These principles shape how teams judge value, sequencing, risk, review depth, and learning in the age of AI.</text>
+  <!-- Background -->
+  <rect width="1800" height="1200" fill="url(#page)"/>
 
-<rect x="90" y="320" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="134" cy="373" r="24" fill="#2563eb"/>
-<text x="134" y="381" text-anchor="middle" class="num">1</text>
-<text x="174" y="365" class="body">Output is not outcome</text>
-<rect x="90" y="447" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="134" cy="500" r="24" fill="#2563eb"/>
-<text x="134" y="508" text-anchor="middle" class="num">2</text>
-<text x="174" y="492" class="body">Speed without direction is waste</text>
-<rect x="90" y="574" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="134" cy="627" r="24" fill="#2563eb"/>
-<text x="134" y="635" text-anchor="middle" class="num">3</text>
-<text x="174" y="619" class="body">Work should be judged comparatively, not in</text>
-<text x="174" y="643" class="body">isolation</text>
-<rect x="90" y="701" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="134" cy="754" r="24" fill="#2563eb"/>
-<text x="134" y="762" text-anchor="middle" class="num">4</text>
-<text x="174" y="746" class="body">Cost of delay matters</text>
-<rect x="90" y="828" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="134" cy="881" r="24" fill="#2563eb"/>
-<text x="134" y="889" text-anchor="middle" class="num">5</text>
-<text x="174" y="873" class="body">Risk gates value</text>
-<rect x="855" y="320" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="899" cy="373" r="24" fill="#2563eb"/>
-<text x="899" y="381" text-anchor="middle" class="num">6</text>
-<text x="939" y="365" class="body">Delivery cost is broader than coding cost</text>
-<rect x="855" y="447" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="899" cy="500" r="24" fill="#2563eb"/>
-<text x="899" y="508" text-anchor="middle" class="num">7</text>
-<text x="939" y="492" class="body">Review is a learning system</text>
-<rect x="855" y="574" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="899" cy="627" r="24" fill="#2563eb"/>
-<text x="899" y="635" text-anchor="middle" class="num">8</text>
-<text x="939" y="619" class="body">AI productivity must be measured at the system</text>
-<text x="939" y="643" class="body">level</text>
-<rect x="855" y="701" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="899" cy="754" r="24" fill="#2563eb"/>
-<text x="899" y="762" text-anchor="middle" class="num">9</text>
-<text x="939" y="746" class="body">Strategy must be concrete enough to order</text>
-<text x="939" y="770" class="body">choices</text>
-<rect x="855" y="828" width="755" height="105" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<circle cx="899" cy="881" r="24" fill="#2563eb"/>
-<text x="899" y="889" text-anchor="middle" class="num">10</text>
-<text x="939" y="873" class="body">A healthy system learns</text>
+  <!-- Title -->
+  <text x="72" y="72" class="title">Ten principles, four disciplines</text>
+  <text x="72" y="104" class="subtitle">Dimensions tell you what to inspect. Principles tell you how to reason about outcomes, priority, risk, and learning.</text>
+
+  <!-- Central banner -->
+  <rect x="400" y="146" width="1000" height="80" rx="16" fill="#1a2332" filter="url(#shadow)"/>
+  <text x="900" y="176" text-anchor="middle" class="label" fill="#8ab0d0">PRINCIPLES ARE THE MENTAL MODEL</text>
+  <text x="900" y="204" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-weight="700" font-size="18" fill="#e8eef4">How to think when output gets cheaper</text>
+
+  <!-- ========== FOUR DISCIPLINE COLUMNS (equal height) ========== -->
+  <!-- All columns: y=260, height=690 -->
+
+  <!-- COLUMN 1: Outcome discipline (2 principles) -->
+  <rect x="72" y="260" width="400" height="690" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="72" y="260" width="400" height="6" rx="3" fill="#4a7fd4"/>
+  <text x="100" y="302" class="discTitle">Outcome discipline</text>
+  <text x="100" y="322" class="discSub">Prevent teams from mistaking activity</text>
+  <text x="100" y="340" class="discSub">for progress.</text>
+
+  <!-- P1 -->
+  <circle cx="120" cy="388" r="16" fill="#4a7fd4"/>
+  <text x="120" y="394" text-anchor="middle" class="num">1</text>
+  <text x="148" y="386" class="principle">Output is not outcome</text>
+  <text x="148" y="406" class="pBody">Shipped work only matters if benefit</text>
+  <text x="148" y="422" class="pBody">materializes.</text>
+
+  <!-- P8 -->
+  <circle cx="120" cy="478" r="16" fill="#4a7fd4"/>
+  <text x="120" y="484" text-anchor="middle" class="num">8</text>
+  <text x="148" y="476" class="principle">AI productivity is system-level</text>
+  <text x="148" y="496" class="pBody">More code only helps if the whole</text>
+  <text x="148" y="512" class="pBody">delivery system improves.</text>
+
+  <!-- COLUMN 2: Prioritization discipline (4 principles) -->
+  <rect x="500" y="260" width="400" height="690" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="500" y="260" width="400" height="6" rx="3" fill="#d4943a"/>
+  <text x="528" y="302" class="discTitle">Prioritization discipline</text>
+  <text x="528" y="322" class="discSub">Force comparative choice and make</text>
+  <text x="528" y="340" class="discSub">timing visible.</text>
+
+  <!-- P2 -->
+  <circle cx="548" cy="388" r="16" fill="#d4943a"/>
+  <text x="548" y="394" text-anchor="middle" class="num">2</text>
+  <text x="576" y="386" class="principle">Speed without direction is waste</text>
+  <text x="576" y="406" class="pBody">Flow matters only when it carries</text>
+  <text x="576" y="422" class="pBody">the right work.</text>
+
+  <!-- P3 -->
+  <circle cx="548" cy="478" r="16" fill="#d4943a"/>
+  <text x="548" y="484" text-anchor="middle" class="num">3</text>
+  <text x="576" y="476" class="principle">Judge work comparatively</text>
+  <text x="576" y="496" class="pBody">The real question is above what,</text>
+  <text x="576" y="512" class="pBody">and at what opportunity cost?</text>
+
+  <!-- P4 -->
+  <circle cx="548" cy="568" r="16" fill="#d4943a"/>
+  <text x="548" y="574" text-anchor="middle" class="num">4</text>
+  <text x="576" y="566" class="principle">Cost of delay matters</text>
+  <text x="576" y="586" class="pBody">Timing changes the right answer even</text>
+  <text x="576" y="602" class="pBody">when raw value looks similar.</text>
+
+  <!-- P9 -->
+  <circle cx="548" cy="658" r="16" fill="#d4943a"/>
+  <text x="548" y="664" text-anchor="middle" class="num">9</text>
+  <text x="576" y="656" class="principle">Strategy must order choices</text>
+  <text x="576" y="676" class="pBody">If strategy cannot break ties, it is too</text>
+  <text x="576" y="692" class="pBody">vague to guide engineering.</text>
+
+  <!-- COLUMN 3: Delivery discipline (2 principles) -->
+  <rect x="928" y="260" width="400" height="690" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="928" y="260" width="400" height="6" rx="3" fill="#3a8a7a"/>
+  <text x="956" y="302" class="discTitle">Delivery discipline</text>
+  <text x="956" y="322" class="discSub">Make hidden downside and hidden cost</text>
+  <text x="956" y="340" class="discSub">part of delivery judgment.</text>
+
+  <!-- P5 -->
+  <circle cx="976" cy="388" r="16" fill="#3a8a7a"/>
+  <text x="976" y="394" text-anchor="middle" class="num">5</text>
+  <text x="1004" y="386" class="principle">Risk gates value</text>
+  <text x="1004" y="406" class="pBody">Some work should pause or reroute until</text>
+  <text x="1004" y="422" class="pBody">verification is strong enough.</text>
+
+  <!-- P6 -->
+  <circle cx="976" cy="478" r="16" fill="#3a8a7a"/>
+  <text x="976" y="484" text-anchor="middle" class="num">6</text>
+  <text x="1004" y="476" class="principle">Delivery cost is broader</text>
+  <text x="1004" y="496" class="pBody">Coding is only one part of cost. Activation,</text>
+  <text x="1004" y="512" class="pBody">review, and cleanup matter too.</text>
+
+  <!-- COLUMN 4: Learning discipline (2 principles) -->
+  <rect x="1356" y="260" width="372" height="690" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="1356" y="260" width="372" height="6" rx="3" fill="#7a5a9a"/>
+  <text x="1384" y="302" class="discTitle">Learning discipline</text>
+  <text x="1384" y="322" class="discSub">Turn review and hindsight into reused</text>
+  <text x="1384" y="340" class="discSub">judgment, not archived history.</text>
+
+  <!-- P7 -->
+  <circle cx="1404" cy="388" r="16" fill="#7a5a9a"/>
+  <text x="1404" y="394" text-anchor="middle" class="num">7</text>
+  <text x="1432" y="386" class="principle">Review is a learning system</text>
+  <text x="1432" y="406" class="pBody">Strong review produces future guidance,</text>
+  <text x="1432" y="422" class="pBody">not just one-off comments.</text>
+
+  <!-- P10 -->
+  <circle cx="1404" cy="478" r="16" fill="#7a5a9a"/>
+  <text x="1404" y="484" text-anchor="middle" class="num">10</text>
+  <text x="1432" y="476" class="principle">A healthy system learns</text>
+  <text x="1432" y="496" class="pBody">Repeated failure patterns should get safer,</text>
+  <text x="1432" y="512" class="pBody">clearer, and easier to route.</text>
+
+  <!-- ========== SUMMARY BAR ========== -->
+  <rect x="72" y="980" width="1656" height="140" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5"/>
+  <text x="104" y="1020" class="section">Taken together</text>
+  <text x="104" y="1048" class="summBody">The ten principles compress into four disciplines: aim at outcomes, sequence comparatively, respect hidden delivery</text>
+  <text x="104" y="1070" class="summBody">cost and risk, and learn faster than the same mistake recurs. That is why VISTA can stay rich without becoming</text>
+  <text x="104" y="1092" class="summBody">a random pile of metrics. The principles make the framework teachable and explain why the right answer often</text>
+  <text x="104" y="1114" class="summBody">depends on timing, downside, and hindsight.</text>
 </svg>

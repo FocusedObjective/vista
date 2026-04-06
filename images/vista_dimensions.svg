@@ -1,85 +1,198 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1700" height="1100" viewBox="0 0 1700 1100" xmlns="http://www.w3.org/2000/svg">
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VISTA framework map</title>
+  <desc id="desc">A visual overview of the VISTA framework showing the five dimensions, the central decision rule, the three operating layers, and the measure timing model.</desc>
   <defs>
     <style>
-      .title { font: 700 40px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .subtitle { font: 400 19px Arial, Helvetica, sans-serif; fill: #475569; }
-      .centerTitle { font: 700 46px Arial, Helvetica, sans-serif; fill: white; }
-      .centerSub { font: 500 20px Arial, Helvetica, sans-serif; fill: #dbeafe; }
-      .cardTitle { font: 700 28px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .question { font: 600 18px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .body { font: 400 17px Arial, Helvetica, sans-serif; fill: #334155; }
-      .label { font: 700 15px Arial, Helvetica, sans-serif; fill: #1d4ed8; }
-      .footer { font: 500 16px Arial, Helvetica, sans-serif; fill: #334155; }
+      .bgTitle { font: 700 42px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .bgSub  { font: 400 18px 'Segoe UI', system-ui, sans-serif; fill: #556677; }
+      .panelTitle { font: 700 22px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .panelBody  { font: 400 15px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; line-height: 1.4; }
+      .label  { font: 700 11px 'Segoe UI', system-ui, sans-serif; fill: #7a8da0; letter-spacing: 2px; }
+      .rule   { font: 700 26px 'Segoe UI', system-ui, sans-serif; fill: #f0f4f8; }
+      .ruleBody { font: 400 15px 'Segoe UI', system-ui, sans-serif; fill: #c5d3e0; }
+      .mini   { font: 600 14px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .miniSub { font: 400 12px 'Segoe UI', system-ui, sans-serif; fill: #6b7b8d; }
+      .dimLetter { font: 700 22px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .dimTitle  { font: 700 18px 'Segoe UI', system-ui, sans-serif; }
+      .dimBody   { font: 400 13px 'Segoe UI', system-ui, sans-serif; }
+      .chip   { font: 600 11px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; letter-spacing: 0.5px; }
+      .layerTitle { font: 700 17px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .layerBody  { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .footTitle { font: 700 18px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .footBody  { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #4a5a6b; }
     </style>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#94a3b8" flood-opacity="0.22"/>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a2332" flood-opacity="0.06"/>
     </filter>
+    <linearGradient id="page" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#f0f2f6"/>
+    </linearGradient>
+    <linearGradient id="ruleBox" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a2332"/>
+      <stop offset="100%" stop-color="#2a3f55"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8899aa"/>
+    </marker>
+    <marker id="arrowBack" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6c8ebf"/>
+    </marker>
   </defs>
-  <rect width="1700" height="1100" fill="#f8fafc"/>
-  <text x="80" y="88" class="title">VISTA dimensions</text>
-  <text x="80" y="124" class="subtitle">Value, Impact, Safety, Timing, and Adaptation — the five documented dimensions of the framework.</text>
 
-  <circle cx="850" cy="545" r="165" fill="#2563eb" filter="url(#shadow)"/>
-  <text x="850" y="520" text-anchor="middle" class="centerTitle">VISTA</text>
-  <text x="850" y="556" text-anchor="middle" class="centerSub">Outcome-optimized</text>
-  <text x="850" y="584" text-anchor="middle" class="centerSub">AI engineering</text>
+  <!-- Background -->
+  <rect width="1800" height="1200" fill="url(#page)" rx="0"/>
 
-  <line x1="850" y1="380" x2="850" y2="245" stroke="#93c5fd" stroke-width="5"/>
-  <line x1="1005" y1="455" x2="1225" y2="355" stroke="#93c5fd" stroke-width="5"/>
-  <line x1="1000" y1="635" x2="1230" y2="760" stroke="#93c5fd" stroke-width="5"/>
-  <line x1="695" y1="635" x2="470" y2="760" stroke="#93c5fd" stroke-width="5"/>
-  <line x1="690" y1="455" x2="470" y2="355" stroke="#93c5fd" stroke-width="5"/>
+  <!-- Title -->
+  <text x="72" y="72" class="bgTitle">VISTA as a judgment system</text>
+  <text x="72" y="104" class="bgSub">Value, Impact, Safety, Timing, and Adaptation organize how teams choose work,</text>
+  <text x="72" y="126" class="bgSub">shape delivery, and learn from outcomes.</text>
 
-<rect x="560" y="80" width="580" height="180" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
-<text x="588" y="124" class="cardTitle">Value</text>
-<text x="588" y="158" class="question">Did this work create meaningful user or business</text>
-<text x="588" y="182" class="question">benefit?</text>
-<text x="588" y="208" class="label">Typical signals</text>
-<text x="608" y="232" class="body">• adoption by intended users</text>
-<text x="608" y="260" class="body">• repeat usage over time</text>
-<text x="608" y="288" class="body">• measurable movement in a target KPI</text>
-<rect x="1160" y="210" width="450" height="220" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
-<text x="1188" y="254" class="cardTitle">Impact</text>
-<text x="1188" y="288" class="question">Did this work materially advance</text>
-<text x="1188" y="312" class="question">strategic goals or competitive</text>
-<text x="1188" y="336" class="question">position?</text>
-<text x="1188" y="358" class="label">Typical signals</text>
-<text x="1208" y="382" class="body">• work clearly maps to strategic goals</text>
-<text x="1208" y="414" class="body">• completed work strengthens an important</text>
-<text x="1208" y="436" class="body">capability</text>
-<text x="1208" y="446" class="body">• priority decisions hold up in hindsight</text>
-<rect x="1110" y="700" width="500" height="230" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
-<text x="1138" y="744" class="cardTitle">Timing</text>
-<text x="1138" y="778" class="question">Was scarce capacity directed to the</text>
-<text x="1138" y="802" class="question">right work at the right time?</text>
-<text x="1138" y="848" class="label">Typical signals</text>
-<text x="1158" y="872" class="body">• capacity shifts toward</text>
-<text x="1158" y="894" class="body">high-cost-of-delay work</text>
-<text x="1158" y="904" class="body">• teams can explain why one item is above</text>
-<text x="1158" y="926" class="body">another</text>
-<text x="1158" y="936" class="body">• sequencing decisions hold up better in</text>
-<text x="1158" y="958" class="body">hindsight</text>
-<rect x="90" y="700" width="500" height="230" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
-<text x="118" y="744" class="cardTitle">Adaptation</text>
-<text x="118" y="778" class="question">Is the system learning and improving</text>
-<text x="118" y="802" class="question">over time?</text>
-<text x="118" y="848" class="label">Typical signals</text>
-<text x="138" y="872" class="body">• repeated issue types cause fewer</text>
-<text x="138" y="894" class="body">regressions</text>
-<text x="138" y="904" class="body">• review patterns become more targeted and</text>
-<text x="138" y="926" class="body">effective</text>
-<text x="138" y="936" class="body">• lessons are reused, not merely</text>
-<text x="138" y="958" class="body">documented</text>
-<rect x="90" y="210" width="500" height="240" rx="26" ry="26" fill="#ffffff" filter="url(#shadow)"/>
-<text x="118" y="254" class="cardTitle">Safety</text>
-<text x="118" y="288" class="question">Did this work avoid hidden downside</text>
-<text x="118" y="312" class="question">and hold up in reality?</text>
-<text x="118" y="358" class="label">Typical signals</text>
-<text x="138" y="382" class="body">• regressions stay low relative to</text>
-<text x="138" y="404" class="body">throughput</text>
-<text x="138" y="414" class="body">• review depth is proportionate to risk</text>
-<text x="138" y="446" class="body">• privacy and security concerns are</text>
-<text x="138" y="468" class="body">identified early</text>
-<text x="80" y="1038" class="footer">VISTA focuses on outcomes, strategy, downside risk, prioritization quality, and learning over time — not just output counts.</text>
+  <!-- ========== LEFT PANEL: FIVE DIMENSIONS ========== -->
+  <rect x="72" y="162" width="480" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="100" y="200" class="label">THE FIVE DIMENSIONS</text>
+  <text x="100" y="228" class="panelTitle">What you look at</text>
+
+  <!-- Value -->
+  <rect x="100" y="258" width="424" height="82" rx="16" fill="#e8f0fe"/>
+  <rect x="100" y="258" width="6" height="82" rx="3" fill="#4a7fd4"/>
+  <circle cx="140" cy="299" r="20" fill="#4a7fd4"/>
+  <text x="140" y="306" text-anchor="middle" class="dimLetter">V</text>
+  <text x="174" y="293" class="dimTitle" fill="#2a5aa0">Value</text>
+  <text x="174" y="314" class="dimBody" fill="#3a5a7a">Did the work create meaningful user or business benefit?</text>
+
+  <!-- Impact -->
+  <rect x="100" y="356" width="424" height="82" rx="16" fill="#fef3e0"/>
+  <rect x="100" y="356" width="6" height="82" rx="3" fill="#d4943a"/>
+  <circle cx="140" cy="397" r="20" fill="#d4943a"/>
+  <text x="140" y="404" text-anchor="middle" class="dimLetter">I</text>
+  <text x="174" y="391" class="dimTitle" fill="#9a6b1e">Impact</text>
+  <text x="174" y="412" class="dimBody" fill="#6e5526">Did the choice materially advance strategy or position?</text>
+
+  <!-- Safety -->
+  <rect x="100" y="454" width="424" height="82" rx="16" fill="#e4f0ef"/>
+  <rect x="100" y="454" width="6" height="82" rx="3" fill="#3a8a7a"/>
+  <circle cx="140" cy="495" r="20" fill="#3a8a7a"/>
+  <text x="140" y="502" text-anchor="middle" class="dimLetter">S</text>
+  <text x="174" y="489" class="dimTitle" fill="#2a6a5d">Safety</text>
+  <text x="174" y="510" class="dimBody" fill="#3a5a52">Did it avoid hidden downside, including security and trust risk?</text>
+
+  <!-- Timing -->
+  <rect x="100" y="552" width="424" height="82" rx="16" fill="#e8f2e4"/>
+  <rect x="100" y="552" width="6" height="82" rx="3" fill="#5a8a4a"/>
+  <circle cx="140" cy="593" r="20" fill="#5a8a4a"/>
+  <text x="140" y="600" text-anchor="middle" class="dimLetter">T</text>
+  <text x="174" y="587" class="dimTitle" fill="#3a6a32">Timing</text>
+  <text x="174" y="608" class="dimBody" fill="#3a5a36">Was scarce capacity directed to the right work at the right time?</text>
+
+  <!-- Adaptation -->
+  <rect x="100" y="650" width="424" height="82" rx="16" fill="#ede4f2"/>
+  <rect x="100" y="650" width="6" height="82" rx="3" fill="#7a5a9a"/>
+  <circle cx="140" cy="691" r="20" fill="#7a5a9a"/>
+  <text x="140" y="698" text-anchor="middle" class="dimLetter">A</text>
+  <text x="174" y="685" class="dimTitle" fill="#5a3a7a">Adaptation</text>
+  <text x="174" y="706" class="dimBody" fill="#5a4a6a">Is the system learning, routing better, and repeating mistakes less?</text>
+
+  <!-- ========== CENTER TOP: DECISION RULE ========== -->
+  <rect x="592" y="162" width="560" height="320" rx="20" fill="url(#ruleBox)" filter="url(#shadow)"/>
+  <text x="624" y="200" class="label" fill="#8aa0b8">CENTRAL DECISION RULE</text>
+  <text x="624" y="240" class="rule">Choose the item with the best</text>
+  <text x="624" y="274" class="rule">timing-adjusted strategic upside,</text>
+  <text x="624" y="308" class="rule">subject to risk, clarity, verification,</text>
+  <text x="624" y="342" class="rule">and activation readiness.</text>
+  <text x="624" y="388" class="ruleBody">VISTA is not a throughput scoreboard.</text>
+  <text x="624" y="410" class="ruleBody">It is a comparative choice model for the AI era,</text>
+  <text x="624" y="432" class="ruleBody">where output is cheap and judgment is scarce.</text>
+
+  <!-- ========== CENTER BOTTOM: MEASURE TIMING ========== -->
+  <rect x="592" y="512" width="560" height="350" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="624" y="550" class="label">MEASURE TIMING</text>
+  <text x="624" y="578" class="panelTitle">How the metrics span time</text>
+
+  <!-- Four timing boxes in a 2x2 grid -->
+  <rect x="624" y="604" width="120" height="70" rx="14" fill="#e8f0fe"/>
+  <text x="684" y="636" text-anchor="middle" class="mini">Leading</text>
+  <text x="684" y="654" text-anchor="middle" class="miniSub">Before</text>
+
+  <rect x="762" y="604" width="120" height="70" rx="14" fill="#fef3e0"/>
+  <text x="822" y="636" text-anchor="middle" class="mini">In-flight</text>
+  <text x="822" y="654" text-anchor="middle" class="miniSub">During</text>
+
+  <rect x="900" y="604" width="120" height="70" rx="14" fill="#e4f0ef"/>
+  <text x="960" y="636" text-anchor="middle" class="mini">Lagging</text>
+  <text x="960" y="654" text-anchor="middle" class="miniSub">After</text>
+
+  <rect x="1038" y="604" width="120" height="70" rx="14" fill="#ede4f2"/>
+  <text x="1098" y="636" text-anchor="middle" class="mini">Learning</text>
+  <text x="1098" y="654" text-anchor="middle" class="miniSub">Patterns</text>
+
+  <!-- Flow arrows between timing boxes -->
+  <line x1="744" y1="639" x2="762" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="882" y1="639" x2="900" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="1020" y1="639" x2="1038" y2="639" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <text x="624" y="712" class="panelBody">Healthy measurement mixes all four categories.</text>
+  <text x="624" y="732" class="panelBody">If you only watch lagging signals, you only learn</text>
+  <text x="624" y="752" class="panelBody">after value, risk, or timing mistakes are already expensive.</text>
+
+  <!-- Learning feeds back arrow -->
+  <path d="M1098,674 L1098,782 L684,782 L684,674" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
+  <text x="891" y="800" text-anchor="middle" class="miniSub">Learning feeds forward</text>
+
+  <!-- ========== RIGHT PANEL: OPERATING MODEL ========== -->
+  <rect x="1192" y="162" width="536" height="700" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="1224" y="200" class="label">OPERATING MODEL</text>
+  <text x="1224" y="228" class="panelTitle">How VISTA is used</text>
+
+  <!-- Layer 1 -->
+  <rect x="1224" y="260" width="476" height="170" rx="16" fill="#e8f0fe"/>
+  <text x="1252" y="292" class="layerTitle">Layer 1: Should we do this?</text>
+  <text x="1252" y="316" class="layerBody">Score strategic relevance, expected value,</text>
+  <text x="1252" y="334" class="layerBody">cost of delay, downside risk, clarity,</text>
+  <text x="1252" y="352" class="layerBody">verification readiness, activation burden,</text>
+  <text x="1252" y="370" class="layerBody">and AI suitability.</text>
+  <rect x="1252" y="394" width="96" height="24" rx="12" fill="#ffffff"/>
+  <text x="1300" y="410" text-anchor="middle" class="chip">Weights rank</text>
+  <rect x="1360" y="394" width="86" height="24" rx="12" fill="#ffffff"/>
+  <text x="1403" y="410" text-anchor="middle" class="chip">Gates stop</text>
+
+  <!-- Layer 2 -->
+  <rect x="1224" y="452" width="476" height="170" rx="16" fill="#e4f0ef"/>
+  <text x="1252" y="484" class="layerTitle">Layer 2: How should we do it?</text>
+  <text x="1252" y="508" class="layerBody">Route work into execution lanes and match</text>
+  <text x="1252" y="526" class="layerBody">review depth, verification strength, rollback</text>
+  <text x="1252" y="544" class="layerBody">sensitivity, and human oversight to the true</text>
+  <text x="1252" y="562" class="layerBody">delivery risk.</text>
+  <rect x="1252" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
+  <text x="1286" y="596" text-anchor="middle" class="chip">AI-first</text>
+  <rect x="1332" y="580" width="116" height="24" rx="12" fill="#ffffff"/>
+  <text x="1390" y="596" text-anchor="middle" class="chip">AI + guardrails</text>
+  <rect x="1460" y="580" width="68" height="24" rx="12" fill="#ffffff"/>
+  <text x="1494" y="596" text-anchor="middle" class="chip">Human</text>
+
+  <!-- Layer 3 -->
+  <rect x="1224" y="644" width="476" height="190" rx="16" fill="#fef3e0"/>
+  <text x="1252" y="676" class="layerTitle">Layer 3: Was it worth it?</text>
+  <text x="1252" y="700" class="layerBody">Inspect adoption, repeat usage, strategic</text>
+  <text x="1252" y="718" class="layerBody">movement, regressions, hidden cleanup,</text>
+  <text x="1252" y="736" class="layerBody">activation success, and hindsight quality</text>
+  <text x="1252" y="754" class="layerBody">of the priority choice.</text>
+  <text x="1252" y="784" class="layerBody">Those results flow back into the next</text>
+  <text x="1252" y="802" class="layerBody">prioritization round.</text>
+
+  <!-- ========== CONNECTING ARROWS ========== -->
+  <!-- Dimensions → Decision Rule -->
+  <line x1="552" y1="400" x2="592" y2="400" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Decision Rule → Operating Model -->
+  <line x1="1152" y1="340" x2="1192" y2="340" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- Layer 3 → Dimensions feedback -->
+  <path d="M1462,834 L1462,900 L312,900 L312,862" fill="none" stroke="#6c8ebf" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrowBack)"/>
+  <text x="887" y="920" text-anchor="middle" class="miniSub">Layer 3 outcomes feed back into dimension scores and the next prioritization round</text>
+
+  <!-- ========== FOOTER ========== -->
+  <rect x="72" y="960" width="1656" height="160" rx="20" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5"/>
+  <text x="104" y="1000" class="footTitle">What changes in the AI era</text>
+  <text x="104" y="1028" class="footBody">When output gets cheap, the scarce resource becomes judgment: choosing the right work, setting the right review</text>
+  <text x="104" y="1050" class="footBody">depth, and learning faster than failure patterns repeat. That is the problem VISTA is designed to make visible.</text>
 </svg>

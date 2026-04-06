@@ -69,6 +69,18 @@ Is the system learning and improving over time?
 
 ---
 
+## Visuals
+
+The repo now includes a set of SVG diagrams in [images/README.md](images/README.md):
+
+![VISTA framework map](images/vista_dimensions.svg)
+
+![VISTA metrics matrix](images/vista_metrics_matrix.svg)
+
+![VISTA dashboard views](images/vista_dashboards.svg)
+
+---
+
 ## What VISTA is trying to change
 
 VISTA is built on a simple idea:

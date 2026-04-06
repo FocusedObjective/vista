@@ -1,85 +1,161 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="1800" height="1100" viewBox="0 0 1800 1100" xmlns="http://www.w3.org/2000/svg">
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ODIM metric design model</title>
+  <desc id="desc">A visual explanation of Outcome, Decision, Insight, Measure, with a reverse MIDO check and VISTA-specific examples.</desc>
   <defs>
     <style>
-      .title { font: 700 40px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .subtitle { font: 400 19px Arial, Helvetica, sans-serif; fill: #475569; }
-      .boxTitle { font: 700 24px Arial, Helvetica, sans-serif; fill: #0f172a; }
-      .body { font: 400 17px Arial, Helvetica, sans-serif; fill: #334155; }
-      .tiny { font: 600 14px Arial, Helvetica, sans-serif; fill: #1d4ed8; }
-      .minihead { font: 700 18px Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .title    { font: 700 42px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .subtitle { font: 400 18px 'Segoe UI', system-ui, sans-serif; fill: #556677; }
+      .section  { font: 700 22px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .body     { font: 400 15px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .small    { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #5a6a7c; }
+      .stepNum  { font: 700 14px 'Segoe UI', system-ui, sans-serif; fill: #ffffff; }
+      .stepTitle{ font: 700 21px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .stepBody { font: 400 14px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .label    { font: 700 11px 'Segoe UI', system-ui, sans-serif; fill: #7a8da0; letter-spacing: 2px; }
+      .midoLabel{ font: 700 11px 'Segoe UI', system-ui, sans-serif; fill: #3a8a7a; letter-spacing: 2px; }
+      .exLabel  { font: 700 13px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .exValue  { font: 400 13px 'Segoe UI', system-ui, sans-serif; fill: #3a4a5c; }
+      .measure  { font: 600 13px 'Segoe UI', system-ui, sans-serif; fill: #1a2332; }
+      .callout  { font: 400 12px 'Segoe UI', system-ui, sans-serif; fill: #5a6a7c; font-style: italic; }
     </style>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#94a3b8" flood-opacity="0.22"/>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#1a2332" flood-opacity="0.06"/>
     </filter>
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L14,7 L0,14 z" fill="#94a3b8"/>
+    <linearGradient id="page" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8f9fb"/>
+      <stop offset="100%" stop-color="#f0f2f6"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8899aa"/>
+    </marker>
+    <marker id="arrowMido" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3a8a7a"/>
     </marker>
   </defs>
-  <rect width="1800" height="1100" fill="#f8fafc"/>
-  <text x="80" y="88" class="title">ODIM: how VISTA designs useful metrics</text>
-  <text x="80" y="124" class="subtitle">Outcome → Decision → Insight → Measure keeps metrics tied to real outcomes instead of floating as isolated counters.</text>
 
-<rect x="80" y="190" width="360" height="165" rx="26" ry="26" fill="#eff6ff" filter="url(#shadow)"/>
-<text x="108" y="236" class="boxTitle">Outcome</text>
-<text x="108" y="272" class="body">What business, customer, product,</text>
-<text x="108" y="296" class="body">or strategic result are we trying</text>
-<text x="108" y="320" class="body">to achieve?</text>
-<rect x="500" y="190" width="360" height="165" rx="26" ry="26" fill="#f0fdf4" filter="url(#shadow)"/>
-<text x="528" y="236" class="boxTitle">Decision</text>
-<text x="528" y="272" class="body">What decision do we need to make</text>
-<text x="528" y="296" class="body">to improve that outcome?</text>
-<rect x="920" y="190" width="360" height="165" rx="26" ry="26" fill="#fefce8" filter="url(#shadow)"/>
-<text x="948" y="236" class="boxTitle">Insight</text>
-<text x="948" y="272" class="body">What understanding would help us</text>
-<text x="948" y="296" class="body">make that decision better?</text>
-<rect x="1340" y="190" width="360" height="165" rx="26" ry="26" fill="#f5f3ff" filter="url(#shadow)"/>
-<text x="1368" y="236" class="boxTitle">Measure</text>
-<text x="1368" y="272" class="body">What observable signal helps</text>
-<text x="1368" y="296" class="body">generate that insight?</text>
-<line x1="440" y1="272" x2="500" y2="272" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
-<line x1="860" y1="272" x2="920" y2="272" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
-<line x1="1280" y1="272" x2="1340" y2="272" stroke="#94a3b8" stroke-width="4" marker-end="url(#arrow)"/>
-<rect x="90" y="430" width="320" height="250" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<text x="114" y="468" class="minihead">Value</text>
-<text x="114" y="502" class="body">Outcome: increase retention</text>
-<text x="114" y="562" class="body">Decision: which feature should</text>
-<text x="114" y="584" class="body">be improved first?</text>
-<text x="114" y="636" class="tiny">Measure: repeat usage by</text>
-<text x="114" y="658" class="tiny">retained vs churned customers</text>
-<rect x="435" y="430" width="320" height="250" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<text x="459" y="468" class="minihead">Impact</text>
-<text x="459" y="502" class="body">Outcome: win in a target</text>
-<text x="459" y="524" class="body">segment</text>
-<text x="459" y="562" class="body">Decision: which capability</text>
-<text x="459" y="584" class="body">should be prioritized?</text>
-<text x="459" y="636" class="tiny">Measure: segment-specific</text>
-<text x="459" y="658" class="tiny">capability adoption and</text>
-<text x="459" y="680" class="tiny">downstream conversion</text>
-<rect x="780" y="430" width="320" height="250" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<text x="804" y="468" class="minihead">Safety</text>
-<text x="804" y="502" class="body">Outcome: reduce customer-facing</text>
-<text x="804" y="524" class="body">regressions</text>
-<text x="804" y="562" class="body">Decision: which changes need</text>
-<text x="804" y="584" class="body">deeper review?</text>
-<text x="804" y="636" class="tiny">Measure: regression rate and</text>
-<text x="804" y="658" class="tiny">cleanup burden by change type</text>
-<rect x="1125" y="430" width="320" height="250" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<text x="1149" y="468" class="minihead">Timing</text>
-<text x="1149" y="502" class="body">Outcome: improve strategic</text>
-<text x="1149" y="524" class="body">sequencing</text>
-<text x="1149" y="562" class="body">Decision: which item should go</text>
-<text x="1149" y="584" class="body">next?</text>
-<text x="1149" y="636" class="tiny">Measure: capacity allocation to</text>
-<text x="1149" y="658" class="tiny">high-cost-of-delay work</text>
-<rect x="1470" y="430" width="320" height="250" rx="24" ry="24" fill="white" filter="url(#shadow)"/>
-<text x="1494" y="468" class="minihead">Adaptation</text>
-<text x="1494" y="502" class="body">Outcome: reduce repeated</text>
-<text x="1494" y="524" class="body">engineering mistakes</text>
-<text x="1494" y="562" class="body">Decision: how should similar</text>
-<text x="1494" y="584" class="body">future work be reviewed or</text>
-<text x="1494" y="606" class="body">routed?</text>
-<text x="1494" y="636" class="tiny">Measure: regression rate by</text>
-<text x="1494" y="658" class="tiny">repeated issue type over time</text>
-<text x="80" y="760" class="subtitle">ODIM can also be used in reverse as MIDO when a team starts with existing measures and tests whether they connect back to real outcomes.</text>
+  <!-- Background -->
+  <rect width="1800" height="1200" fill="url(#page)"/>
+
+  <!-- Title -->
+  <text x="72" y="72" class="title">ODIM keeps metrics attached to outcomes</text>
+  <text x="72" y="104" class="subtitle">Outcome - Decision - Insight - Measure is the design path.</text>
+  <text x="72" y="126" class="subtitle">MIDO is the skepticism check when teams start from a metric they already have.</text>
+
+  <!-- ========== FORWARD DESIGN ROW ========== -->
+  <text x="72" y="178" class="label">FORWARD DESIGN PATH</text>
+
+  <!-- Step 1: Outcome -->
+  <rect x="72" y="200" width="370" height="180" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="72" y="200" width="6" height="180" rx="3" fill="#4a7fd4"/>
+  <circle cx="108" cy="236" r="16" fill="#4a7fd4"/>
+  <text x="108" y="242" text-anchor="middle" class="stepNum">1</text>
+  <text x="136" y="242" class="stepTitle">Outcome</text>
+  <text x="100" y="278" class="stepBody">What business, customer, product,</text>
+  <text x="100" y="298" class="stepBody">or strategic result are we trying</text>
+  <text x="100" y="318" class="stepBody">to create?</text>
+
+  <!-- Arrow 1-2 -->
+  <line x1="442" y1="290" x2="480" y2="290" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 2: Decision -->
+  <rect x="480" y="200" width="370" height="180" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="480" y="200" width="6" height="180" rx="3" fill="#d4943a"/>
+  <circle cx="516" cy="236" r="16" fill="#d4943a"/>
+  <text x="516" y="242" text-anchor="middle" class="stepNum">2</text>
+  <text x="544" y="242" class="stepTitle">Decision</text>
+  <text x="508" y="278" class="stepBody">What choice must improve if the</text>
+  <text x="508" y="298" class="stepBody">outcome is going to move?</text>
+
+  <!-- Arrow 2-3 -->
+  <line x1="850" y1="290" x2="888" y2="290" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 3: Insight -->
+  <rect x="888" y="200" width="370" height="180" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="888" y="200" width="6" height="180" rx="3" fill="#3a8a7a"/>
+  <circle cx="924" cy="236" r="16" fill="#3a8a7a"/>
+  <text x="924" y="242" text-anchor="middle" class="stepNum">3</text>
+  <text x="952" y="242" class="stepTitle">Insight</text>
+  <text x="916" y="278" class="stepBody">What understanding would make</text>
+  <text x="916" y="298" class="stepBody">that choice better?</text>
+
+  <!-- Arrow 3-4 -->
+  <line x1="1258" y1="290" x2="1296" y2="290" stroke="#8899aa" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Step 4: Measure -->
+  <rect x="1296" y="200" width="432" height="180" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="1296" y="200" width="6" height="180" rx="3" fill="#7a5a9a"/>
+  <circle cx="1332" cy="236" r="16" fill="#7a5a9a"/>
+  <text x="1332" y="242" text-anchor="middle" class="stepNum">4</text>
+  <text x="1360" y="242" class="stepTitle">Measure</text>
+  <text x="1324" y="278" class="stepBody">What observable signal produces</text>
+  <text x="1324" y="298" class="stepBody">the insight rather than just noise?</text>
+
+  <!-- ========== MIDO REVERSE CHECK ========== -->
+  <path d="M1512,380 L1512,430 L257,430 L257,380" fill="none" stroke="#3a8a7a" stroke-width="2.5" stroke-dasharray="8,4" marker-end="url(#arrowMido)"/>
+  <text x="884" y="450" text-anchor="middle" class="midoLabel">MIDO REVERSE CHECK</text>
+  <text x="884" y="470" text-anchor="middle" class="small">If a measure cannot justify an insight, decision, and outcome, it is weak.</text>
+
+  <!-- ========== MIDO TEST BOX ========== -->
+  <rect x="72" y="502" width="1656" height="118" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="104" y="542" class="section">The MIDO test</text>
+  <text x="104" y="572" class="body">Start with the measure you already collect. Ask what insight it creates, which decision that insight should improve,</text>
+  <text x="104" y="592" class="body">and what outcome that decision is meant to move. If the chain breaks anywhere, the measure is visible but not useful.</text>
+
+  <!-- ========== VISTA EXAMPLES ========== -->
+  <text x="72" y="668" class="label">VISTA EXAMPLES</text>
+
+  <!-- Example 1: Value -->
+  <rect x="72" y="692" width="530" height="268" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="72" y="692" width="530" height="44" rx="18" fill="#e8f0fe"/>
+  <rect x="72" y="714" width="530" height="22" fill="#e8f0fe"/>
+  <text x="100" y="722" class="section" fill="#2a5aa0">Value</text>
+  <text x="100" y="768" class="exLabel">Outcome</text>
+  <text x="200" y="768" class="exValue">Increase retention</text>
+  <text x="100" y="796" class="exLabel">Decision</text>
+  <text x="200" y="796" class="exValue">Which workflow should we improve first?</text>
+  <text x="100" y="824" class="exLabel">Insight</text>
+  <text x="200" y="824" class="exValue">Which usage correlates with retained accounts?</text>
+  <text x="100" y="852" class="exLabel">Measure</text>
+  <text x="200" y="852" class="measure">Repeat usage by retained vs churned customers</text>
+  <text x="100" y="886" class="callout">The point is not to count feature launches. The point is to</text>
+  <text x="100" y="902" class="callout">learn which behavior actually predicts durable value.</text>
+
+  <!-- Example 2: Timing -->
+  <rect x="635" y="692" width="530" height="268" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="635" y="692" width="530" height="44" rx="18" fill="#e8f2e4"/>
+  <rect x="635" y="714" width="530" height="22" fill="#e8f2e4"/>
+  <text x="663" y="722" class="section" fill="#3a6a32">Timing</text>
+  <text x="663" y="768" class="exLabel">Outcome</text>
+  <text x="763" y="768" class="exValue">Accelerate progress on time-sensitive work</text>
+  <text x="663" y="796" class="exLabel">Decision</text>
+  <text x="763" y="796" class="exValue">Which item should go next?</text>
+  <text x="663" y="824" class="exLabel">Insight</text>
+  <text x="763" y="824" class="exValue">Which has highest cost of delay vs alternatives?</text>
+  <text x="663" y="852" class="exLabel">Measure</text>
+  <text x="763" y="852" class="measure">Capacity allocation to high-cost-of-delay work</text>
+  <text x="663" y="886" class="callout">This turns prioritization into a testable judgment,</text>
+  <text x="663" y="902" class="callout">not a stakeholder volume contest.</text>
+
+  <!-- Example 3: Safety -->
+  <rect x="1198" y="692" width="530" height="268" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5" filter="url(#shadow)"/>
+  <rect x="1198" y="692" width="530" height="44" rx="18" fill="#e4f0ef"/>
+  <rect x="1198" y="714" width="530" height="22" fill="#e4f0ef"/>
+  <text x="1226" y="722" class="section" fill="#2a6a5d">Safety</text>
+  <text x="1226" y="768" class="exLabel">Outcome</text>
+  <text x="1326" y="768" class="exValue">Reduce regressions, security escapes, trust failures</text>
+  <text x="1226" y="796" class="exLabel">Decision</text>
+  <text x="1326" y="796" class="exValue">Which changes need deeper review?</text>
+  <text x="1226" y="824" class="exLabel">Insight</text>
+  <text x="1326" y="824" class="exValue">Which change types create the most damage?</text>
+  <text x="1226" y="852" class="exLabel">Measure</text>
+  <text x="1326" y="852" class="measure">Regression rate and cleanup by change type</text>
+  <text x="1226" y="886" class="callout">A good safety metric changes review behavior before</text>
+  <text x="1226" y="902" class="callout">the next avoidable incident ships.</text>
+
+  <!-- ========== FOOTER ========== -->
+  <rect x="72" y="1000" width="1656" height="130" rx="18" fill="#ffffff" stroke="#e2e6ec" stroke-width="1.5"/>
+  <text x="104" y="1038" class="section">Why three examples, not five?</text>
+  <text x="104" y="1068" class="body">Value, Timing, and Safety illustrate the three most distinct ODIM chains. Impact and Adaptation follow the same</text>
+  <text x="104" y="1088" class="body">pattern but use strategic movement and learning trends as their outcomes. The model is the same for every dimension.</text>
 </svg>

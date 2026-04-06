@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1800" height="1180" viewBox="0 0 1800 1180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">VISTA dashboard views</title>
+  <desc id="desc">Three dashboard views for VISTA showing executive, delivery leadership, and team audience needs.</desc>
+  <defs>
+    <style>
+      .title { font: 700 44px Georgia, 'Times New Roman', serif; fill: #17324d; }
+      .subtitle { font: 400 20px 'Segoe UI', Tahoma, sans-serif; fill: #53687a; }
+      .section { font: 700 24px Georgia, 'Times New Roman', serif; fill: #17324d; }
+      .body { font: 400 16px 'Segoe UI', Tahoma, sans-serif; fill: #304557; }
+      .small { font: 400 14px 'Segoe UI', Tahoma, sans-serif; fill: #304557; }
+      .tag { font: 700 13px 'Segoe UI', Tahoma, sans-serif; fill: #8b5e13; letter-spacing: 1.3px; }
+      .metric { font: 700 16px Georgia, 'Times New Roman', serif; fill: #17324d; }
+    </style>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#24384a" flood-opacity="0.12"/>
+    </filter>
+    <linearGradient id="page" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1800" height="1180" fill="url(#page)"/>
+  <rect x="42" y="36" width="1716" height="1108" rx="28" fill="none" stroke="#dccfb7" stroke-width="2"/>
+
+  <text x="84" y="96" class="title">Three dashboard cuts for the same system</text>
+  <text x="84" y="132" class="subtitle">Executives need result signals. Delivery leaders need structural signals. Teams need coaching signals they can act on every sprint.</text>
+
+  <text x="84" y="202" class="tag">AUDIENCE-SPECIFIC VIEWS</text>
+
+  <rect x="84" y="232" width="520" height="802" rx="30" fill="#fbf8f1" stroke="#d9ccb6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="122" y="280" class="section">Executive dashboard</text>
+  <text x="122" y="312" class="small">Mostly lagging measures that show whether the system is producing the right outcomes.</text>
+  <rect x="122" y="348" width="444" height="100" rx="20" fill="#f4ddd4"/>
+  <text x="148" y="386" class="metric">Value</text>
+  <text x="148" y="414" class="body">Percent of delivered work with meaningful adoption and repeat usage</text>
+  <rect x="122" y="468" width="444" height="100" rx="20" fill="#ebe0d0"/>
+  <text x="148" y="506" class="metric">Impact</text>
+  <text x="148" y="534" class="body">Percent of completed work that materially advanced a strategic initiative</text>
+  <rect x="122" y="588" width="444" height="100" rx="20" fill="#dfe9e3"/>
+  <text x="148" y="626" class="metric">Safety</text>
+  <text x="148" y="654" class="body">Regressions, security issues, and cleanup burden per shipped item</text>
+  <rect x="122" y="708" width="444" height="100" rx="20" fill="#e4ecd9"/>
+  <text x="148" y="746" class="metric">Timing</text>
+  <text x="148" y="774" class="body">Capacity spent on high-cost-of-delay work</text>
+  <rect x="122" y="828" width="444" height="100" rx="20" fill="#e9deef"/>
+  <text x="148" y="866" class="metric">Adaptation</text>
+  <text x="148" y="894" class="body">Repeated issue types causing fewer regressions over time</text>
+  <text x="122" y="974" class="body">This view should stay sparse. If it becomes operationally noisy, leaders will start managing the mechanics instead of the outcomes.</text>
+
+  <rect x="640" y="232" width="520" height="802" rx="30" fill="#fbf8f1" stroke="#d9ccb6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="678" y="280" class="section">Delivery leadership dashboard</text>
+  <text x="678" y="312" class="small">Structural measures for directors and managers trying to improve the delivery system itself.</text>
+  <rect x="678" y="348" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="704" y="386" class="metric">Review depth matched to risk</text>
+  <text x="704" y="414" class="body">Are high-risk, high-value PRs getting the right review attention?</text>
+  <rect x="678" y="468" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="704" y="506" class="metric">Verification effectiveness by work type</text>
+  <text x="704" y="534" class="body">Which categories still surprise us after merge?</text>
+  <rect x="678" y="588" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="704" y="626" class="metric">Activation burden discovered late</text>
+  <text x="704" y="654" class="body">How often do rollout, docs, or support dependencies surface after coding?</text>
+  <rect x="678" y="708" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="704" y="746" class="metric">Hindsight quality of priority choices</text>
+  <text x="704" y="774" class="body">Did our sequencing logic hold up once the work landed?</text>
+  <rect x="678" y="828" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="704" y="866" class="metric">Post-merge issue trends by pattern</text>
+  <text x="704" y="894" class="body">Are the same failure classes recurring, or actually getting safer?</text>
+  <text x="678" y="974" class="body">This dashboard is about leverage: where a manager can change routing rules, review policy, verification expectations, or planning discipline.</text>
+
+  <rect x="1196" y="232" width="520" height="802" rx="30" fill="#fbf8f1" stroke="#d9ccb6" stroke-width="2" filter="url(#shadow)"/>
+  <text x="1234" y="280" class="section">Team dashboard</text>
+  <text x="1234" y="312" class="small">Short-cycle signals that help a delivery team improve judgment on current work.</text>
+  <rect x="1234" y="348" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="1260" y="386" class="metric">Outcome clarity before start</text>
+  <text x="1260" y="414" class="body">Did we know what success looked like before coding began?</text>
+  <rect x="1234" y="468" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="1260" y="506" class="metric">Review depth versus PR risk</text>
+  <text x="1260" y="534" class="body">Are we reviewing proportionally, or using one review mode for everything?</text>
+  <rect x="1234" y="588" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="1260" y="626" class="metric">Similar issue safety trend</text>
+  <text x="1260" y="654" class="body">Are repeated issue types getting less dangerous over time?</text>
+  <rect x="1234" y="708" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="1260" y="746" class="metric">Opportunity-cost errors caught early</text>
+  <text x="1260" y="774" class="body">Did we spot a better option before committing too much effort?</text>
+  <rect x="1234" y="828" width="444" height="100" rx="20" fill="#fffaf5"/>
+  <text x="1260" y="866" class="metric">Reusable review guidance created</text>
+  <text x="1260" y="894" class="body">Are reviews producing future leverage, not just one-time corrections?</text>
+  <text x="1234" y="974" class="body">This is the coaching view. The measures should be close enough to current work that a team can change behavior in the next sprint.</text>
+
+  <text x="84" y="1098" class="body">All three dashboards describe the same delivery system from different altitudes. If one audience gets the wrong altitude, it will either lose the signal or overreact to the wrong detail.</text>
+</svg>
