@@ -35,8 +35,6 @@ Delay may hurt by:
 - delaying learning
 - missing a market window
 
-A useful shorthand is:
-
 **Timing is about comparative choice under delay pressure.**
 
 ## Typical signals of strong Timing
@@ -74,8 +72,17 @@ After delivery:
 - **Insight:** Which candidate item has the highest cost of delay relative to the alternatives?
 - **Measure:** Capacity allocation to high-cost-of-delay work, plus hindsight quality of sequencing decisions
 
-## Summary
+## Concrete example
 
-Timing is the dimension that asks whether the organization spent its effort where delay mattered most.
+A team has two items ready to start:
 
-**VISTA uses Timing to measure whether engineering effort is being directed to the right work at the right time, not just whether work is being completed.**
+1. **Home page improvements** — moderate value, low risk, no deadline. Cost of delay: low. If it ships next month instead of this week, nothing changes strategically.
+2. **Enterprise SSO provisioning** — complex, but three enterprise deals are waiting on it. Cost of delay: high. Every week of delay pushes at least one deal into the next quarter.
+
+In a FIFO system or a "highest stakeholder volume" system, the home page improvements might win because they're easier or more visible. VISTA's Timing dimension asks: *what happens if each item waits?* The SSO work's delay creates measurable strategic harm. The home page's delay does not.
+
+Interactive prioritization tools make this visible by letting leaders weight cost-of-delay higher and watching the ranking reorder in real time.
+
+---
+
+Timing asks whether the organization spent its effort where delay mattered most.

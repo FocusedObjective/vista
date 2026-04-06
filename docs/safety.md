@@ -26,9 +26,12 @@ As AI makes implementation faster, one of the biggest risks is that teams optimi
 - security and trust concerns
 - post-merge cleanup
 
-A useful shorthand is:
-
 **Safety is the ability to move without creating disproportionate downside.**
+
+Two related concepts from delivery engineering:
+
+- **Blast radius** — how many files, modules, services, or users a change touches. Wide blast radius demands more scrutiny.
+- **Change surface** — the scope of code and system boundaries affected. A one-file UI tweak and a cross-service data migration have very different change surfaces even if both are "medium" PRs by line count.
 
 ## Safety and privacy
 
@@ -83,8 +86,14 @@ After release:
 - **Insight:** Which kinds of changes, PR patterns, or data-handling scenarios create the most downstream problems?
 - **Measure:** Regression rate, trust-sensitive issue rate, and post-merge cleanup burden by change type
 
-## Summary
+## Concrete example
 
-Safety is the dimension that asks whether the work was delivered without creating disproportionate hidden downside.
+An AI agent generates a PR for audit export retention (API-092). The diff is 180 lines — "medium" by size. But the change crosses data policy boundaries, touches compliance-sensitive retention rules, and affects an API used by external integrations.
 
-**VISTA uses Safety to measure whether engineering is moving responsibly, not just moving quickly.**
+A throughput-focused system treats this as a medium PR and routes it through standard review. A VISTA-informed system flags the high blast radius, the compliance sensitivity, and the weak verification path — and routes it to human review first, with explicit acceptance criteria for the retention policy.
+
+The cost of catching this *during* review is one hour. The cost of catching it in production — after a customer's audit data is silently dropped — is weeks of incident response and a trust discussion with legal.
+
+---
+
+Safety asks whether the work was delivered without creating disproportionate hidden downside.

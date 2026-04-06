@@ -6,10 +6,13 @@
 
 **Did this work materially advance strategic goals or competitive position?**
 
-Value and Impact are related, but they are not the same.
+Value and Impact are related but distinct.
 
-Value asks whether work created meaningful benefit.
-Impact asks whether that benefit mattered in the larger strategic game.
+Value is measured at the **item level**: did this specific piece of work create benefit for users or the business?
+
+Impact is measured at the **portfolio level**: did the set of choices the organization made — what to build, what to defer, what to kill — advance its strategic position?
+
+A feature can score high on Value (users love it) and low on Impact (it doesn't strengthen the company's position in a target market). Conversely, a capability-building investment may show modest immediate Value but high Impact because it unlocks future competitive advantage.
 
 ## Why it matters
 
@@ -22,15 +25,15 @@ Impact helps answer:
 - Does this move us closer to a strategic objective?
 - Is this more important than the alternatives?
 
-## Impact vs Value
+## How to tell them apart
 
-### Value
-Did this create meaningful benefit?
-
-### Impact
-Did that benefit materially advance strategy?
-
-A useful shorthand is:
+| | Value | Impact |
+|---|---|---|
+| **Level** | Individual work item | Portfolio of choices |
+| **Question** | Did users benefit? | Did strategy advance? |
+| **Timeframe** | Weeks after release | Quarter or longer |
+| **Failure mode** | Shipped but unused | Useful but strategically irrelevant |
+| **Example** | Invite reminders get 14% click rate | Enterprise SSO — table stakes for target segment — advances despite being less "exciting" |
 
 **Impact is strategic consequence, not local usefulness.**
 
@@ -82,8 +85,17 @@ After release:
 - **Insight:** Which capabilities most influence buying confidence and onboarding success in that segment?
 - **Measure:** Adoption and strategic traction of segment-specific capabilities, plus hindsight quality of sequencing decisions
 
-## Summary
+## Concrete example
 
-Impact is the dimension that asks whether the work moved the company in the right direction.
+Consider two items competing for the same sprint capacity:
 
-**VISTA uses Impact to measure whether engineering is advancing strategy, strengthening position, and making better comparative choices over time.**
+1. **Pricing page experiment** — clear scope, strong customer signal, expected to improve conversion by ~3%.
+2. **Enterprise SSO provisioning** — complex, security-sensitive, but required to close three enterprise deals in the pipeline.
+
+The pricing page scores higher on immediate Value (fast win, measurable KPI lift). But SSO scores higher on Impact because the enterprise segment is a stated strategic priority and delays here have high cost of delay.
+
+A system that only measures Value would always pick the pricing page. VISTA's Impact dimension surfaces the strategic cost of that choice.
+
+---
+
+Impact asks whether the work moved the company in the right direction — not just whether it helped locally.

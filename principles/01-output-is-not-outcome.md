@@ -17,6 +17,8 @@ Teams usually have strong tools for measuring output:
 
 Those measures are easy to capture, but they do not prove customer benefit, business traction, strategic movement, or lower risk.
 
-## Summary
+This gap widens as AI tools accelerate output. A team using AI agents might merge 3x more PRs per week. If none of those PRs produce meaningful adoption or strategic progress, the team is moving faster in a direction that doesn't matter.
 
-VISTA starts from the idea that engineering performance should be judged by the outcomes it creates, not just the activity it makes visible.
+---
+
+VISTA starts from the idea that engineering performance should be judged by the outcomes it creates, not by the activity it makes visible.

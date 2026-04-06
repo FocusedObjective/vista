@@ -13,11 +13,11 @@ In VISTA, value is not measured by code written, pull requests merged, tickets c
 As AI makes software output cheaper and faster to produce, the risk is not that teams build too little. The risk is that they build more of the wrong things, or that they mistake shipped work for realized benefit.
 
 Without an explicit value lens, organizations drift toward:
-- delivery theater
-- feature accumulation
-- local optimization
-- AI-generated slop
-- weak product focus
+- delivery theater — celebrating releases instead of results
+- feature accumulation — building more without evidence of benefit
+- local optimization — improving parts that don't move the whole
+- AI-generated slop — plausible-looking output that nobody asked for and nobody uses (see [glossary](#glossary) below)
+- weak product focus — losing sight of who benefits and why
 
 ## What Value is not
 
@@ -40,8 +40,6 @@ Value often includes:
 - revenue contribution or enablement
 - retention, expansion, or churn reduction
 - progress against a strategic objective
-
-A useful shorthand is:
 
 **Value is realized benefit, not delivered output.**
 
@@ -92,8 +90,18 @@ After work ships:
 - **Insight:** Which behaviors or capabilities are associated with stronger retention?
 - **Measure:** Adoption and repeat usage of those workflows by retained vs churned customers
 
-## Summary
+## Concrete example
 
-Value is the dimension that asks whether the work actually mattered.
+A team ships a workspace invite reminders feature. AI generated the code in hours. The PR merged cleanly. In a throughput-focused system, this looks like a win.
 
-**VISTA uses Value to make sure software delivery is connected to meaningful outcomes, not just visible output.**
+Three weeks later, the data shows: 14% of invited users clicked the reminder, but only 2% completed onboarding. Repeat usage is zero — the reminder fires once and is forgotten. Meanwhile, an onboarding flow improvement sat in the backlog that had strong evidence of reducing churn for users who *already* accepted invites.
+
+The invite reminder scored well on speed and output. It scored poorly on Value because it didn't produce meaningful adoption or retention movement. A VISTA-informed system would have surfaced that gap before coding started by asking: *What does meaningful adoption look like for this feature?*
+
+## Glossary
+
+**AI-generated slop:** Code, features, or pull requests that are syntactically correct and superficially plausible but lack clear user benefit, strategic rationale, or evidence of demand. Slop is the predictable byproduct of optimizing for output volume without filtering for value. It consumes review capacity, clutters the product, and trains the organization to celebrate activity over outcomes.
+
+---
+
+Value asks whether the work actually mattered — not whether it shipped.

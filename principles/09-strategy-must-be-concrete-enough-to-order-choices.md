@@ -10,6 +10,6 @@ If teams cannot explain why one item should come before another, the strategy is
 
 Strategy should help order real work, not just inspire it.
 
-## Summary
+---
 
-VISTA treats strategy as a decision system, not a slogan.
+Strategy that can't order real work is aspiration, not strategy.

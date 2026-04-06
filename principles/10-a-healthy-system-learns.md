@@ -10,6 +10,6 @@ The strongest proof of improvement is not that a team can explain its past probl
 
 A healthy system converts experience into better future behavior.
 
-## Summary
+---
 
-VISTA treats learning as a measurable property of the system.
+Learning is the difference between a system that repeats and a system that improves.

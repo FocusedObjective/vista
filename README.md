@@ -138,8 +138,15 @@ docs/
   adaptation.md
   odim.md
   decision-model.md
+  scoring.md
+  profiles.md
+  dashboards.md
   principles.md
-  principles/
+principles/
+  01-output-is-not-outcome.md
+  02-speed-without-direction-is-waste.md
+  ...
+  10-a-healthy-system-learns.md
 ```
 
 The goal of this repo is to make the framework:
@@ -155,12 +162,12 @@ The goal of this repo is to make the framework:
 
 If you are new to VISTA, start with:
 
-1. The five dimensions
-2. The principles
-3. ODIM
-4. The decision model
+1. [The five dimensions](docs/README.md) — Value, Impact, Safety, Timing, Adaptation
+2. [The principles](principles/README.md) — the ten ideas that shape how VISTA thinks
+3. [ODIM](docs/odim.md) — how to design metrics that connect to outcomes
+4. [The decision model](docs/decision-model.md) — how to choose, shape, and evaluate work
 
-Then go deeper into the individual dimensions and principles.
+Then go deeper: [scoring template](docs/scoring.md), [team profiles](docs/profiles.md), and [dashboards](docs/dashboards.md).
 
 ---
 
@@ -185,6 +192,18 @@ Good contributions include:
 
 The goal is not to make VISTA rigid.
 The goal is to make it useful.
+
+---
+
+## Delivery Tower
+
+VISTA is the theory behind [Delivery Tower](https://deliverytower.com), a product that implements these ideas as working software. Delivery Tower provides three towers:
+
+- **Delivery Tower** — Assess incoming work against strategic fit, verification readiness, change-surface risk, and hidden follow-on cost. Route to the right execution lane.
+- **PR Tower** — Prioritize pull request review by delivery value, not arrival time. Surface similar-work recommendations from historical patterns.
+- **AI Adoption Tower** — Prove that AI delivery is getting better, not just bigger. Track balanced adoption, safe execution, and lane accuracy.
+
+VISTA provides the framework and thinking. Delivery Tower provides the tooling.
 
 ---
 

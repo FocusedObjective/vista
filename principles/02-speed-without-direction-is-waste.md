@@ -8,8 +8,10 @@ Faster delivery is valuable only when it moves the organization toward the right
 
 ## Why this matters
 
-A system that accelerates low-value, low-impact, or poorly timed work is not clearly improving performance. It may simply be wasting capacity faster.
+A system that accelerates low-value, low-impact, or poorly timed work is not improving performance. It is wasting capacity faster.
 
-## Summary
+This is the central risk of AI-augmented engineering: the tools make speed easy to achieve, which makes it tempting to treat speed *as* the goal. But throughput without strategic alignment produces scope sprawl, regressions at scale, and a growing pile of features nobody asked for.
+
+---
 
 Speed is valuable. Direction makes it meaningful.

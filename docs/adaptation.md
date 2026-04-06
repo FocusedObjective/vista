@@ -27,8 +27,6 @@ But they do not reliably convert those into:
 - fewer repeated regressions
 - more reusable review guidance
 
-A useful shorthand is:
-
 **Adaptation is evidence that the system is improving its judgment, not just recording its history.**
 
 ## Typical signals of strong Adaptation
@@ -62,8 +60,21 @@ Across time:
 - **Insight:** Which patterns repeatedly create regressions, weak value, or hidden cleanup?
 - **Measure:** Repeated issue-class regression rate, known preventable pattern recurrence, and reuse of review guidance
 
-## Summary
+## How learning actually happens
 
-Adaptation is the dimension that asks whether the system is actually learning.
+Adaptation requires infrastructure, not just intention. Concrete mechanisms include:
 
-**VISTA uses Adaptation to measure whether engineering and product systems are getting smarter over time, not just busier.**
+- **Closed-loop feedback from delivery outcomes.** When work ships, capture what happened: review friction, rework cycles, regressions, scope sprawl, follow-on work. Feed that evidence back into how similar future work gets assessed and routed.
+- **Similar-work pattern matching.** When a new issue or PR arrives, surface prior items with overlapping file paths, module boundaries, or label patterns. If those prior items triggered rework or repeat feedback, flag it before anyone repeats the same review.
+- **Review guidance reuse.** Turn recurring review comments into persistent checklists that surface automatically for similar future changes, instead of relying on individual reviewers to remember.
+- **Lane accuracy tracking.** Track whether work routed to AI-first execution actually delivered clean results, or whether it needed human rescue. If a lane consistently produces rework, the routing criteria need recalibration.
+
+## Concrete example
+
+A team notices that changes touching the notification subsystem have triggered regressions in three of the last five sprints. In a non-learning system, each incident produces a postmortem that says "add more tests." Nothing structurally changes.
+
+In a system with Adaptation, the pattern is captured: notification-subsystem changes carry elevated risk. Future PRs touching those files automatically get flagged for deeper review and stronger verification. Over the next quarter, the regression rate for that subsystem drops from 60% to 15%. That decline *is* the adaptation signal.
+
+---
+
+Adaptation asks whether the system is actually learning — not just accumulating history.
