@@ -2,6 +2,8 @@
 
 **VISTA** stands for **Value, Impact, Safety, Timing, and Adaptation**.
 
+In VISTA, **Safety explicitly includes security**. The S stays Safety, but the dimension covers whether work avoids regressions, security failures, privacy issues, trust damage, and other hidden downside.
+
 VISTA is an open framework for outcome-optimized AI engineering. It gives leaders and teams an overall view of whether engineering is producing the right outcomes, not just more code, more pull requests, or more shipped changes.
 
 As coding gets cheaper and faster, the real constraint shifts from code production to judgment: choosing the right work, shaping it well before coding starts, applying the right review depth, verifying the right risks, and learning from what happens after release.
@@ -57,7 +59,7 @@ Did the work create meaningful user or business benefit?
 Did it materially advance strategic goals or competitive position?
 
 ### Safety
-Did it avoid hidden downside, regressions, privacy issues, trust damage, or fragile outcomes?
+Did it avoid hidden downside, including regressions, security failures, privacy issues, trust damage, or fragile outcomes?
 
 ### Timing
 Was capacity directed to the right work at the right time, especially where cost of delay was highest?
@@ -122,7 +124,7 @@ VISTA is for:
 
 It is especially relevant for organizations that are discovering a new problem:
 
-AI can help them build more, but it does not automatically help them build the right things, safely, at the right time, with the right follow-through.
+AI can help them build more, but it does not automatically help them build the right things, safely and securely, at the right time, with the right follow-through.
 
 ---
 
@@ -162,7 +164,7 @@ The goal of this repo is to make the framework:
 
 If you are new to VISTA, start with:
 
-1. [The five dimensions](docs/README.md) — Value, Impact, Safety, Timing, Adaptation
+1. [The five dimensions](docs/README.md) — Value, Impact, Safety (including security), Timing, Adaptation
 2. [The principles](principles/README.md) — the ten ideas that shape how VISTA thinks
 3. [ODIM](docs/odim.md) — Larry Maccherone's Outcome, Decision, Insight, Measure framework for designing metrics that connect to outcomes
 4. [The decision model](docs/decision-model.md) — how to choose, shape, and evaluate work
@@ -201,7 +203,7 @@ VISTA is the theory behind [Delivery Tower](https://deliverytower.com), a produc
 
 - **Delivery Tower** — Assess incoming work against strategic fit, verification readiness, change-surface risk, and hidden follow-on cost. Route to the right execution lane.
 - **PR Tower** — Prioritize pull request review by delivery value, not arrival time. Surface similar-work recommendations from historical patterns.
-- **AI Adoption Tower** — Prove that AI delivery is getting better, not just bigger. Track balanced adoption, safe execution, and lane accuracy.
+- **AI Adoption Tower** — Prove that AI delivery is getting better, not just bigger. Track balanced adoption, safe and secure execution, and lane accuracy.
 
 VISTA provides the framework and thinking. Delivery Tower provides the tooling.
 

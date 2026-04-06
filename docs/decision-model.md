@@ -98,7 +98,7 @@ Once work is approved and routed, shape the execution approach:
 - **Review depth** - Does this PR warrant a quick scan, a careful read, or a deep walkthrough?
 - **Verification strength** - What test paths, coverage, and evidence are required?
 - **Rollback sensitivity** - If this breaks, how hard is it to undo?
-- **Privacy and trust sensitivity** - Does this touch user data, payments, or regulated areas?
+- **Privacy, security, and trust sensitivity** - Does this touch user data, credentials, payments, or regulated areas?
 - **Change surface and blast radius** - How many files, modules, and service boundaries are affected?
 - **Known failure pattern similarity** - Have similar changes caused problems before?
 - **Reversibility** - Can this be reverted in minutes, hours, or never?

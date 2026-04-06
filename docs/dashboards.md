@@ -12,7 +12,7 @@ Five flagship measures — one per dimension.
 |-----------|---------|
 | **Value** | % of delivered work with meaningful adoption and repeat usage |
 | **Impact** | % of completed work that materially advanced a strategic initiative |
-| **Safety** | Regressions + follow-on cleanup burden per shipped item |
+| **Safety** | Regressions, security issues, and follow-on cleanup burden per shipped item |
 | **Timing** | % of engineering capacity spent on high-cost-of-delay work |
 | **Adaptation** | Repeated issue types causing fewer regressions over time |
 
@@ -38,6 +38,6 @@ These measures help individual teams improve their own judgment.
 
 - Outcome clarity before start (did we know what success looked like before coding?)
 - Review depth vs PR risk (are we reviewing proportionally?)
-- Similar issue safety trend (are repeated issue types getting safer?)
+- Similar issue safety trend (are repeated issue types getting safer and more secure?)
 - Opportunity-cost errors caught early (did we spot better alternatives before committing?)
 - Reusable review guidance created (are we turning reviews into future leverage?)

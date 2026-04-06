@@ -73,10 +73,10 @@ For each VISTA dimension, ODIM helps teams connect measures to outcomes.
 - **Measure:** Segment-specific capability adoption and downstream conversion
 
 ### Safety
-- **Outcome:** Reduce customer-facing regressions
+- **Outcome:** Reduce customer-facing regressions and shipped security failures
 - **Decision:** Which changes need deeper review?
-- **Insight:** Which change types create the most post-merge problems?
-- **Measure:** Regression rate and cleanup burden by change type
+- **Insight:** Which change types create the most post-merge reliability and security problems?
+- **Measure:** Regression rate, security issue rate, and cleanup burden by change type
 
 ### Timing
 - **Outcome:** Improve strategic sequencing
