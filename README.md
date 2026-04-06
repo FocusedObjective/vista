@@ -95,7 +95,7 @@ It is the item with the best **timing-adjusted strategic upside**, subject to ac
 
 ## ODIM
 
-One of the ways VISTA teaches metric design is through **ODIM**:
+One of the ways VISTA teaches metric design is through **ODIM**, credited to Larry Maccherone:
 
 - **Outcome**
 - **Decision**
@@ -164,7 +164,7 @@ If you are new to VISTA, start with:
 
 1. [The five dimensions](docs/README.md) — Value, Impact, Safety, Timing, Adaptation
 2. [The principles](principles/README.md) — the ten ideas that shape how VISTA thinks
-3. [ODIM](docs/odim.md) — how to design metrics that connect to outcomes
+3. [ODIM](docs/odim.md) — Larry Maccherone's Outcome, Decision, Insight, Measure framework for designing metrics that connect to outcomes
 4. [The decision model](docs/decision-model.md) — how to choose, shape, and evaluate work
 
 Then go deeper: [scoring template](docs/scoring.md), [team profiles](docs/profiles.md), and [dashboards](docs/dashboards.md).

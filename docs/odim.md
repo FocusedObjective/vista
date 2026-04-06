@@ -2,7 +2,7 @@
 
 ## Outcome, Decision, Insight, Measure
 
-ODIM is a simple way to teach and design better metrics.
+ODIM, credited to Larry Maccherone, is a simple way to teach and design better metrics.
 
 It exists to answer a common problem in engineering and product organizations:
 

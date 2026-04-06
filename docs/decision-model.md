@@ -133,15 +133,15 @@ Interactive weighting - adjusting dimension emphasis in real time and watching r
 
 ## How VISTA relates to other frameworks
 
-VISTA is not a replacement for DORA, SPACE, or DevEx. It is a complement.
+VISTA is not a replacement for [DORA](https://en.wikipedia.org/wiki/DORA_metrics) ([dora.dev](https://dora.dev/)), [SPACE](https://queue.acm.org/detail.cfm?id=3454124), or DevEx. It is a complement.
 
 | Framework | What it measures | VISTA's relationship |
 |-----------|-----------------|---------------------|
-| **DORA** | Deployment frequency, lead time, change failure rate, recovery time | DORA measures **flow** - how fast and reliably work moves through the pipeline. VISTA adds **direction** - whether that flow carried the right work. |
-| **SPACE** | Satisfaction, Performance, Activity, Communication, Efficiency | SPACE measures **developer experience** across multiple dimensions. VISTA shares the multi-dimensional philosophy but focuses on **organizational outcomes** rather than individual developer experience. |
+| **[DORA](https://en.wikipedia.org/wiki/DORA_metrics) ([dora.dev](https://dora.dev/))** | Deployment frequency, lead time, change failure rate, recovery time | [DORA](https://en.wikipedia.org/wiki/DORA_metrics) ([dora.dev](https://dora.dev/)) measures **flow** - how fast and reliably work moves through the pipeline. VISTA adds **direction** - whether that flow carried the right work. |
+| **[SPACE](https://queue.acm.org/detail.cfm?id=3454124)** | Satisfaction, Performance, Activity, Communication, Efficiency | [SPACE](https://queue.acm.org/detail.cfm?id=3454124), from "The SPACE of Developer Productivity" by Nicole Forsgren, Margaret-Anne Storey, Chandra Maddila, Thomas Zimmermann, Brian Houck, and Jenna Butler, measures **developer experience** across multiple dimensions. VISTA shares the multi-dimensional philosophy but focuses on **organizational outcomes** rather than individual developer experience. |
 | **DevEx** | Developer friction, cognitive load, flow state | DevEx measures **how it feels to build**. VISTA measures **whether what was built mattered**. |
 
-A team can score well on DORA (fast deploys, low failure rate) and poorly on VISTA (deploying the wrong things quickly). A team can have great DevEx scores (low friction, good flow) while building features nobody uses. VISTA adds the outcome layer that these frameworks intentionally leave out.
+A team can score well on [DORA](https://en.wikipedia.org/wiki/DORA_metrics) ([dora.dev](https://dora.dev/)) (fast deploys, low failure rate) and poorly on VISTA (deploying the wrong things quickly). A team can have great DevEx scores (low friction, good flow) while building features nobody uses. VISTA adds the outcome layer that these frameworks intentionally leave out.
 
 ## VISTA anti-patterns
 
