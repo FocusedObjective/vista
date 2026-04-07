@@ -117,28 +117,45 @@ AI can help them build more, but it does not automatically help them build the r
 ## Repo structure
 
 ```text
+AGENTS.md
+LICENSE
 README.md
 docs/
-  value.md
-  impact.md
-  safety.md
-  timing.md
-  adaptation.md
-  odim.md
-  decision-model.md
-  scoring.md
-  profiles.md
-  dashboards.md
-  principles.md
-prior-art/
-  sdpi.md
-  six-dimensions.md
-principles/
-  01-output-is-not-outcome.md
-  02-speed-without-direction-is-waste.md
   ...
-  10-a-healthy-system-learns.md
+images/
+  ...
+kits/
+  01-strategy-vision-impact/
+    README.md
+    agent-files/
+      ...
+    community/
+      ...
+    prompts/
+      ...
+    questions/
+      ...
+    skills/
+      ...
+    surveys/
+      ...
+    templates/
+      ...
+    theory/
+      ...
+    ...
+  ...
+prior-art/
+  ...
+principles/
+  ...
 ```
+
+- `docs/` holds the core framework documentation: dimensions, decision model, scoring, profiles, and dashboards.
+- `images/` holds diagrams and the visual style guide for SVGs and other repo visuals.
+- `kits/` holds applied, reusable working packages. Each numbered kit has its own README plus prompts, surveys, templates, theory, skills, questions, community materials, and any supporting agent files.
+- `prior-art/` holds related frameworks and reference material that informed VISTA.
+- `principles/` holds the ten principles and the overview that ties them together.
 
 The goal of this repo is to make the framework:
 - understandable
