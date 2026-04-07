@@ -3,6 +3,11 @@
 ## Goal
 Generate a usable strategy brief for VISTA-based evaluation.
 
+We are actively building out these surveys. But welcom your feedback.
+Test the survey template here:
+
+[AskPilot survey preview](https://askpilot.io/s/23ceecc0-d004-4d0e-8464-361507a2c737?preview=1)
+
 ## Suggested survey flow
 
 ### Section 1: Direction
